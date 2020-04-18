@@ -1,0 +1,8 @@
+tests.exe: func.o tests.o
+    gcc -o tests.exe func.o tests.o
+	
+func.o: func.h error.h func.c
+	gcc -std=c99 -Wall -Werror -g3 -pedantic -c func.c
+	
+tests.o: func.h error.h tests.c
+	gcc -std=c99 -Wall -Werror -g3 -pedantic -c tests.c
