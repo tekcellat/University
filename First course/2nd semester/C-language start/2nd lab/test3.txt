@@ -1,0 +1,29 @@
+Input: 
+1
+1e-7
+
+Output:
+S(x) = 1.566803
+f(x) = 1.570796
+Abs. Err.: 0.003993
+Rel. Err.: 0.002542
+
+Input:
+1
+1
+
+Output:
+S(x) = 0.000000
+f(x) = 1.570796
+Abs. Err.: 1.570796
+Rel. Err.: 1.000000
+
+Input:
+0
+0
+
+Output:
+S(x) = 0.000000
+f(x) = 0.000000
+Abs. Err.: 0.000000
+Don't have: Rel. Err.

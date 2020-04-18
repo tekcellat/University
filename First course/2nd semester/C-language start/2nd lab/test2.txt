@@ -1,0 +1,23 @@
+Input:
+1 2
+5 4
+6 5
+
+Output:
+point out line
+
+Input:
+1 1
+5 5
+3 3
+
+Output:
+Point in line
+
+Input:
+0 0
+100 100
+57 98
+
+Output:
+point out line

@@ -1,0 +1,14 @@
+Input:
+0 0
+Output:
+Not defined
+
+Input:
+4 0
+Output:
+1
+
+Input:
+-5 3
+Output:
+-125
