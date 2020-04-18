@@ -1,0 +1,242 @@
+Azerbaijan   10000000   Baku         Europe     excursions 2341      history
+England      34000000   London       Europe     excursions 3242      history
+Ireland      7500000    Dublin       Europe     excursions 35623     nature 
+Ukrane       25000000   Kiev         Europe     sport      skiing    500    
+Poland       12000000   Warsaw       Europe     excursions 27625     history
+Pakistan     100000000  Islamabad    Asia       sport      climbing  250    
+Spain        20000000   Madrid       Europe     beach      summer    26      34  5 
+USA          300000000  Washington   America    sport      surfing   1000   
+Egypt        24000000   Cairo        Africa     beach      summer    30      38  4 
+Italy        14000000   Rome         Europe     excursions 25354     art    
+Estonia      4000000    Tallin       Europe     beach      summer    22      32  1 
+Thailand     25000000   Bangkok      Asia       beach      winter    28      36  8 
+Tanzania     10000000   Dodoma       Africa     sport      climbing  900    
+France       40000000   Paris        Europe     excursions 262256    history
+Canada       40000000   Vancuver     America    sport      skiing    1400   
+Montenegro   4000000    Podgoritsa   Europe     beach      summer    25      34  3 
+Sweden       20000000   Stockholm    Europe     sport      skiing    1300   
+Peru         31000000   Lima         America    beach      summer    25      35  14
+Portugal     11000000   Lissabon     Europe     beach      summer    24      31  6 
+Germany      30000000   Berlin       Europe     excursions 3453      history
+Brazil       210000000  Brasilia     America    beach      summer    28      36  14
+Finland      5000000    Helsinki     Europe     excursions 34535     nature 
+Mongolia     14000000   Ulan-Bator   Asia       sport      climbing  250    
+Vietnam      40000000   Hanoi        Asia       beach      winter    26      32  9 
+India        1200000000 Dehli        Asia       beach      winter    28      34  8 
+Morocco      35000000   Rabat        Africa     beach      summer    27      35  6 
+Cuba         11000000   Havana       America    beach      spring    30      37  12
+Australia    17000000   Canberra     Australia  beach      summer    22      33  17
+Kenya        10000000   Nairobi      Africa     sport      climbing  200    
+Iceland      8000000    Reikjavik    Europe     sport      climbing  1000   
+Austria      22000000   Vienna       Europe     sport      skiing    900    
+Switzerland  11000000   Zurich       Europe     sport      skiing    2800   
+Czech        9000000    Prague       Europe     excursions 54766     history
+Mexico       50000000   Mexico       America    beach      autumn    30      39  10
+China        1700000000 Beiging      Asia       excursions 26345     history
+Japan        100000000  Tokyo        Asia       excursions 43534     history
+Netherlands  17000000   Amsterdam    Europe     excursions 24234     nature 
+Indonesia    45000000   Jakarta      Asia       beach      spring    28      26  11
+UAE          9000000    Dubai        Asia       beach      winter    28      33  5 
+Russia       146000000  Moscow       Europe     excursions 13231     nature 
+Belarus      10000000   Minsk        Europe     excursions 1741      nature 
+England      34000000   London       Europe     excursions 3242      history
+Ireland      7500000    Dublin       Europe     excursions 35623     nature 
+Ukrane       25000000   Kiev         Europe     sport      skiing    500    
+Poland       12000000   Warsaw       Europe     excursions 27625     history
+Pakistan     100000000  Islamabad    Asia       sport      climbing  250    
+Spain        20000000   Madrid       Europe     beach      summer    26      34  5 
+USA          300000000  Washington   America    sport      surfing   1000   
+Egypt        24000000   Cairo        Africa     beach      summer    30      38  4 
+Italy        14000000   Rome         Europe     excursions 25354     art    
+Estonia      4000000    Tallin       Europe     beach      summer    22      32  1 
+Thailand     25000000   Bangkok      Asia       beach      winter    28      36  8 
+Tanzania     10000000   Dodoma       Africa     sport      climbing  900    
+France       40000000   Paris        Europe     excursions 262256    history
+Canada       40000000   Vancuver     America    sport      skiing    1400   
+Montenegro   4000000    Podgoritsa   Europe     beach      summer    25      34  3 
+Sweden       20000000   Stockholm    Europe     sport      skiing    1300   
+Peru         31000000   Lima         America    beach      summer    25      35  14
+Portugal     11000000   Lissabon     Europe     beach      summer    24      31  6 
+Germany      30000000   Berlin       Europe     excursions 3453      history
+Brazil       210000000  Brasilia     America    beach      summer    28      36  14
+Finland      5000000    Helsinki     Europe     excursions 34535     nature 
+Mongolia     14000000   Ulan-Bator   Asia       sport      climbing  250    
+Vietnam      40000000   Hanoi        Asia       beach      winter    26      32  9 
+India        1200000000 Dehli        Asia       beach      winter    28      34  8 
+Morocco      35000000   Rabat        Africa     beach      summer    27      35  6 
+Cuba         11000000   Havana       America    beach      spring    30      37  12
+Australia    17000000   Canberra     Australia  beach      summer    22      33  17
+Kenya        10000000   Nairobi      Africa     sport      climbing  200    
+Iceland      8000000    Reikjavik    Europe     sport      climbing  1000   
+Austria      22000000   Vienna       Europe     sport      skiing    900    
+Switzerland  11000000   Zurich       Europe     sport      skiing    2800   
+Czech        9000000    Prague       Europe     excursions 54766     history
+Mexico       50000000   Mexico       America    beach      autumn    30      39  10
+China        1700000000 Beiging      Asia       excursions 26345     history
+Japan        100000000  Tokyo        Asia       excursions 43534     history
+Netherlands  17000000   Amsterdam    Europe     excursions 24234     nature 
+Indonesia    45000000   Jakarta      Asia       beach      spring    28      26  11
+UAE          9000000    Dubai        Asia       beach      winter    28      33  5 
+Russia       146000000  Moscow       Europe     excursions 13231     nature 
+Belarus      10000000   Minsk        Europe     excursions 1741      nature 
+England      34000000   London       Europe     excursions 3242      history
+Ireland      7500000    Dublin       Europe     excursions 35623     nature 
+Ukrane       25000000   Kiev         Europe     sport      skiing    500    
+Poland       12000000   Warsaw       Europe     excursions 27625     history
+Pakistan     100000000  Islamabad    Asia       sport      climbing  250    
+Spain        20000000   Madrid       Europe     beach      summer    26      34  5 
+USA          300000000  Washington   America    sport      surfing   1000   
+Egypt        24000000   Cairo        Africa     beach      summer    30      38  4 
+Italy        14000000   Rome         Europe     excursions 25354     art    
+Estonia      4000000    Tallin       Europe     beach      summer    22      32  1 
+Thailand     25000000   Bangkok      Asia       beach      winter    28      36  8 
+Tanzania     10000000   Dodoma       Africa     sport      climbing  900    
+France       40000000   Paris        Europe     excursions 262256    history
+Canada       40000000   Vancuver     America    sport      skiing    1400   
+Montenegro   4000000    Podgoritsa   Europe     beach      summer    25      34  3 
+Sweden       20000000   Stockholm    Europe     sport      skiing    1300   
+Peru         31000000   Lima         America    beach      summer    25      35  14
+Portugal     11000000   Lissabon     Europe     beach      summer    24      31  6 
+Germany      30000000   Berlin       Europe     excursions 3453      history
+Brazil       210000000  Brasilia     America    beach      summer    28      36  14
+Finland      5000000    Helsinki     Europe     excursions 34535     nature 
+Mongolia     14000000   Ulan-Bator   Asia       sport      climbing  250    
+Vietnam      40000000   Hanoi        Asia       beach      winter    26      32  9 
+India        1200000000 Dehli        Asia       beach      winter    28      34  8 
+Morocco      35000000   Rabat        Africa     beach      summer    27      35  6 
+Cuba         11000000   Havana       America    beach      spring    30      37  12
+Australia    17000000   Canberra     Australia  beach      summer    22      33  17
+Kenya        10000000   Nairobi      Africa     sport      climbing  200    
+Iceland      8000000    Reikjavik    Europe     sport      climbing  1000   
+Austria      22000000   Vienna       Europe     sport      skiing    900    
+Switzerland  11000000   Zurich       Europe     sport      skiing    2800   
+Czech        9000000    Prague       Europe     excursions 54766     history
+Mexico       50000000   Mexico       America    beach      autumn    30      39  10
+China        1700000000 Beiging      Asia       excursions 26345     history
+Japan        100000000  Tokyo        Asia       excursions 43534     history
+Netherlands  17000000   Amsterdam    Europe     excursions 24234     nature 
+Indonesia    45000000   Jakarta      Asia       beach      spring    28      26  11
+UAE          9000000    Dubai        Asia       beach      winter    28      33  5 
+Russia       146000000  Moscow       Europe     excursions 13231     nature 
+Belarus      10000000   Minsk        Europe     excursions 1741      nature 
+England      34000000   London       Europe     excursions 3242      history
+Ireland      7500000    Dublin       Europe     excursions 35623     nature 
+Ukrane       25000000   Kiev         Europe     sport      skiing    500    
+Poland       12000000   Warsaw       Europe     excursions 27625     history
+Pakistan     100000000  Islamabad    Asia       sport      climbing  250    
+Spain        20000000   Madrid       Europe     beach      summer    26      34  5 
+USA          300000000  Washington   America    sport      surfing   1000   
+Egypt        24000000   Cairo        Africa     beach      summer    30      38  4 
+Italy        14000000   Rome         Europe     excursions 25354     art    
+Estonia      4000000    Tallin       Europe     beach      summer    22      32  1 
+Thailand     25000000   Bangkok      Asia       beach      winter    28      36  8 
+Tanzania     10000000   Dodoma       Africa     sport      climbing  900    
+France       40000000   Paris        Europe     excursions 262256    history
+Canada       40000000   Vancuver     America    sport      skiing    1400   
+Montenegro   4000000    Podgoritsa   Europe     beach      summer    25      34  3 
+Sweden       20000000   Stockholm    Europe     sport      skiing    1300   
+Peru         31000000   Lima         America    beach      summer    25      35  14
+Portugal     11000000   Lissabon     Europe     beach      summer    24      31  6 
+Germany      30000000   Berlin       Europe     excursions 3453      history
+Brazil       210000000  Brasilia     America    beach      summer    28      36  14
+Finland      5000000    Helsinki     Europe     excursions 34535     nature 
+Mongolia     14000000   Ulan-Bator   Asia       sport      climbing  250    
+Vietnam      40000000   Hanoi        Asia       beach      winter    26      32  9 
+India        1200000000 Dehli        Asia       beach      winter    28      34  8 
+Morocco      35000000   Rabat        Africa     beach      summer    27      35  6 
+Cuba         11000000   Havana       America    beach      spring    30      37  12
+Australia    17000000   Canberra     Australia  beach      summer    22      33  17
+Kenya        10000000   Nairobi      Africa     sport      climbing  200    
+Iceland      8000000    Reikjavik    Europe     sport      climbing  1000   
+Austria      22000000   Vienna       Europe     sport      skiing    900    
+Switzerland  11000000   Zurich       Europe     sport      skiing    2800   
+Czech        9000000    Prague       Europe     excursions 54766     history
+Mexico       50000000   Mexico       America    beach      autumn    30      39  10
+China        1700000000 Beiging      Asia       excursions 26345     history
+Japan        100000000  Tokyo        Asia       excursions 43534     history
+Netherlands  17000000   Amsterdam    Europe     excursions 24234     nature 
+Indonesia    45000000   Jakarta      Asia       beach      spring    28      26  11
+UAE          9000000    Dubai        Asia       beach      winter    28      33  5 
+Russia       146000000  Moscow       Europe     excursions 13231     nature 
+Belarus      10000000   Minsk        Europe     excursions 1741      nature 
+England      34000000   London       Europe     excursions 3242      history
+Ireland      7500000    Dublin       Europe     excursions 35623     nature 
+Ukrane       25000000   Kiev         Europe     sport      skiing    500    
+Poland       12000000   Warsaw       Europe     excursions 27625     history
+Pakistan     100000000  Islamabad    Asia       sport      climbing  250    
+Spain        20000000   Madrid       Europe     beach      summer    26      34  5 
+USA          300000000  Washington   America    sport      surfing   1000   
+Egypt        24000000   Cairo        Africa     beach      summer    30      38  4 
+Italy        14000000   Rome         Europe     excursions 25354     art    
+Estonia      4000000    Tallin       Europe     beach      summer    22      32  1 
+Thailand     25000000   Bangkok      Asia       beach      winter    28      36  8 
+Tanzania     10000000   Dodoma       Africa     sport      climbing  900    
+France       40000000   Paris        Europe     excursions 262256    history
+Canada       40000000   Vancuver     America    sport      skiing    1400   
+Montenegro   4000000    Podgoritsa   Europe     beach      summer    25      34  3 
+Sweden       20000000   Stockholm    Europe     sport      skiing    1300   
+Peru         31000000   Lima         America    beach      summer    25      35  14
+Portugal     11000000   Lissabon     Europe     beach      summer    24      31  6 
+Germany      30000000   Berlin       Europe     excursions 3453      history
+Brazil       210000000  Brasilia     America    beach      summer    28      36  14
+Finland      5000000    Helsinki     Europe     excursions 34535     nature 
+Mongolia     14000000   Ulan-Bator   Asia       sport      climbing  250    
+Vietnam      40000000   Hanoi        Asia       beach      winter    26      32  9 
+India        1200000000 Dehli        Asia       beach      winter    28      34  8 
+Morocco      35000000   Rabat        Africa     beach      summer    27      35  6 
+Cuba         11000000   Havana       America    beach      spring    30      37  12
+Australia    17000000   Canberra     Australia  beach      summer    22      33  17
+Kenya        10000000   Nairobi      Africa     sport      climbing  200    
+Iceland      8000000    Reikjavik    Europe     sport      climbing  1000   
+Austria      22000000   Vienna       Europe     sport      skiing    900    
+Switzerland  11000000   Zurich       Europe     sport      skiing    2800   
+Czech        9000000    Prague       Europe     excursions 54766     history
+Mexico       50000000   Mexico       America    beach      autumn    30      39  10
+China        1700000000 Beiging      Asia       excursions 26345     history
+Japan        100000000  Tokyo        Asia       excursions 43534     history
+Netherlands  17000000   Amsterdam    Europe     excursions 24234     nature 
+Indonesia    45000000   Jakarta      Asia       beach      spring    28      26  11
+UAE          9000000    Dubai        Asia       beach      winter    28      33  5 
+Russia       146000000  Moscow       Europe     excursions 13231     nature 
+Belarus      10000000   Minsk        Europe     excursions 1741      nature 
+England      34000000   London       Europe     excursions 3242      history
+Ireland      7500000    Dublin       Europe     excursions 35623     nature 
+Ukrane       25000000   Kiev         Europe     sport      skiing    500    
+Poland       12000000   Warsaw       Europe     excursions 27625     history
+Pakistan     100000000  Islamabad    Asia       sport      climbing  250    
+Spain        20000000   Madrid       Europe     beach      summer    26      34  5 
+USA          300000000  Washington   America    sport      surfing   1000   
+Egypt        24000000   Cairo        Africa     beach      summer    30      38  4 
+Italy        14000000   Rome         Europe     excursions 25354     art    
+Estonia      4000000    Tallin       Europe     beach      summer    22      32  1 
+Thailand     25000000   Bangkok      Asia       beach      winter    28      36  8 
+Tanzania     10000000   Dodoma       Africa     sport      climbing  900    
+France       40000000   Paris        Europe     excursions 262256    history
+Canada       40000000   Vancuver     America    sport      skiing    1400   
+Montenegro   4000000    Podgoritsa   Europe     beach      summer    25      34  3 
+Sweden       20000000   Stockholm    Europe     sport      skiing    1300   
+Peru         31000000   Lima         America    beach      summer    25      35  14
+Portugal     11000000   Lissabon     Europe     beach      summer    24      31  6 
+Germany      30000000   Berlin       Europe     excursions 3453      history
+Brazil       210000000  Brasilia     America    beach      summer    28      36  14
+Finland      5000000    Helsinki     Europe     excursions 34535     nature 
+Mongolia     14000000   Ulan-Bator   Asia       sport      climbing  250    
+Vietnam      40000000   Hanoi        Asia       beach      winter    26      32  9 
+India        1200000000 Dehli        Asia       beach      winter    28      34  8 
+Morocco      35000000   Rabat        Africa     beach      summer    27      35  6 
+Cuba         11000000   Havana       America    beach      spring    30      37  12
+Australia    17000000   Canberra     Australia  beach      summer    22      33  17
+Kenya        10000000   Nairobi      Africa     sport      climbing  200    
+Iceland      8000000    Reikjavik    Europe     sport      climbing  1000   
+Austria      22000000   Vienna       Europe     sport      skiing    900    
+Switzerland  11000000   Zurich       Europe     sport      skiing    2800   
+Czech        9000000    Prague       Europe     excursions 54766     history
+Mexico       50000000   Mexico       America    beach      autumn    30      39  10
+China        1700000000 Beiging      Asia       excursions 26345     history
+Japan        100000000  Tokyo        Asia       excursions 43534     history
+Netherlands  17000000   Amsterdam    Europe     excursions 24234     nature 
+Indonesia    45000000   Jakarta      Asia       beach      spring    28      26  11
+UAE          9000000    Dubai        Asia       beach      winter    28      33  5 
+Russia       146000000  Moscow       Europe     excursions 13231     nature 
+Belarus      10000000   Minsk        Europe     excursions 1741      nature 
+Turkey       100000000  Istambul     Europe     excursions 134124    nature 
