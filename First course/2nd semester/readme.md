@@ -1,1 +1,1 @@
-Here we go. Start C language and game on Python via graphic library
+**Here we go. Start C language and game on Python via graphics library**
