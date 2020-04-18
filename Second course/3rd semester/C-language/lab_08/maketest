@@ -1,0 +1,11 @@
+unittests.o: func.h error.h unittests.c
+	gcc -std=c99 -Wall -Werror -g3 -pedantic -c unittests.c
+
+func.o: func.h error.h func.c
+	gcc -std=c99 -Wall -Werror -g3 -pedantic -c func.c
+
+unittests.exe: func.o unittests.o
+	gcc -o unittests.exe func.o unittests.o
+
+clean:
+	rm -rf *.o
