@@ -1,0 +1,769 @@
+* Library of bipolar transistor model parameters
+*
+*   Copyright 1992, 1995 by CAD Department 
+*   of St-Peterburg Electrical Engineering University.
+*   Neither this library nor any part may be copied without the express
+*   written consent of CAD Dep. of S-Pb EEU
+*   tel. (812) 234.36.75  A.Isakov
+*
+* Release date: May '92
+* Revision: Nov '95
+*
+.model NT011 NPN(Is=887.6E-18 Xti=3 Eg=1.11 Vaf=115 Bf=377 Ne=1.235 
++  Ise=387.6E-18 Ikf=9.428m Xtb=1.5 Var=70 Br=76.91m Nc=2 Isc=3.81f 
++  Ikr=9.43m Rb=110 Rc=32.3 Cjc=2.78p Vjc=.65 Mjc=.33 Fc=.5 Cje=650f 
++  Vje=.65 Mje=.33 Tr=68.7n Tf=97.1p Itf=200u Vtf=15 Xtf=2)
+*
+*** NT Family
+*
+.model q159NT1a NPN(Is=1.32f Xti=3 Eg=1.11 Vaf=67.4 Bf=406.4 Ne=1.352 
++  Ise=1.32f Ikf=19.03m Xtb=1.5 Var=48 Br=.7633 Nc=2 Isc=840f Ikr=120u 
++  Rb=72 Rc=5.4 Cjc=1.65p Vjc=.7 Mjc=.33 Fc=.5 Cje=6.15p Vje=.7 Mje=.33 
++  Tr=155.2n Tf=146.9p Itf=48m Vtf=20 Xtf=2)
+*
+.model q198NT1a NPN(Is=2.877f Xti=3 Eg=1.11 Vaf=95 Bf=105.7 Ne=2.49 
++  Ise=11.2p Ikf=.4292 Xtb=1.5 Br=1.164 Var=40 Nc=2 Isc=1.046p Ikr=.45 
++  Rb=74 Rc=4.5 Cjc=4.275p Mjc=.33 Vjc=.75 Fc=.5 Cje=3.979p Mje=.33 
++  Vje=.75 Tr=516.5n Tf=757.9p Itf=40m Vtf=20 Xtf=1.5)
+.model q198NT5a PNP(Is=4.943f Xti=3 Eg=1.11 Vaf=90 Bf=100.6 Ne=1.655 
++  Ise=170.7f Ikf=.21 Xtb=1.5 Br=.7036 Var=40 Nc=2 Isc=170f Ikr=.21 
++  Rc=66 Rb=48 Cjc=4.275p Mjc=.33 Vjc=.75 Fc=.5 Cje=3.979p Mje=.33 
++  Vje=.75 Tr=863.8n Tf=757.9p Itf=40m Vtf=20 Xtf=1.5)
+*
+.model q1NT251  NPN(Is=51.37f Xti=3 Eg=1.11 Vaf=87 Bf=108.4 Ne=1.353 
++  Ise=185.4f Ikf=2.926 Xtb=1.5 Var=40 Br=.2127 Nc=2 Isc=185f Ikr=.196 
++  Rb=29.6 Rc=1.85 Cjc=17.01p Mjc=.261 Vjc=.75 Fc=.5 Cje=35.97p Mje=.43
++  Vje=.75 Tr=537n Tf=287.7p Itf=2 Vtf=40 Xtf=1.5)
+*
+.model q2TS622a PNP(Is=2.304f Xti=3 Eg=1.11 Vaf=78 Bf=91.15 Ne=1.406 
++  Ise=53.59f Ikf=2.65 Xtb=1.5 Br=.7955 Nc=2 Isc=53.5f Ikr=1.3 Rc=1.2
++  Rb=18.8 Cjc=39.2p Mjc=.4446 Vjc=.75 Fc=.5 Cje=23.31p Mje=.201 Vje=.75
++  Tr=150.8n Tf=313.9p Itf=2.5 Vtf=40 Xtf=1.5)
+*
+**** TS3103 Family
+*
+.model TS3103a1 PNP(Is=449.1E-18 Xti=3 Eg=1.11 Vaf=63.25 Bf=137.7 Ne=3.148
++  Ise=98.79p Ikf=.1065 Xtb=1.5 Var=42.2 Br=.9704 Nc=2 Isc=1.12f Ikr=.251 
++  Rb=56 Rc=6.7 Cjc=3.721p Vjc=.75 Mjc=.33 Fc=.5 Cje=1.8p Vje=.69 Mje=.33 
++  Tr=56.41n Tf=73.23p Itf=45m Vtf=15 Xtf=2)
+.model TS3103a2 PNP(Is=566.4E-18 Xti=3 Eg=1.11 Vaf=63.8 Bf=138.9 Ne=3.136
++  Ise=112.3p Ikf=.1211 Xtb=1.5 Var=42 Br=2.336 Nc=2 Isc=2.563p Ikr=.251 
++  Rb=63 Rc=8.3 Cjc=3.721p Vjc=.75 Mjc=.33 Fc=.5 Cje=1.812p Vje=.69 
++  Mje=.33 Tr=24.66n Tf=81.76p Itf=.134 Vtf=15 Xtf=2)
+*
+**** 2T201 Family
+*
+.model q2T201a  NPN(Is=158.1f Xti=3 Eg=1.11 Vaf=62.37 Bf=54.44 Ne=7.733
++  Ise=2.197u Ikf=.3012 Xtb=1.5 Br=.502 Nc=2 Isc=2.196n Ikr=.301
++  Rb=80 Rc=15 Cjc=17.75p Mjc=.33 Vjc=.75 Fc=.5 Cje=39.43p Mje=.33
++  Vje=.75 Tr=659.5n Tf=3.626n Itf=80m Vtf=30 Xtf=1.5)
+.model q2T201b  NPN(Is=158.1f Xti=3 Eg=1.11 Vaf=62.37 Bf=87.26 Ne=10.51
++  Ise=2.569u Ikf=.3751 Xtb=1.5 Br=.1259 Nc=2 Isc=2.196n Ikr=.37
++  Rb=80 Rc=15 Cjc=17.75p Mjc=.33 Vjc=.75 Fc=.5 Cje=39.43p Mje=.33
++  Vje=.75 Tr=862.1n Tf=3.205n Itf=80m Vtf=30 Xtf=1.5)
+.model q2T201v  NPN(Is=158.1f Xti=3 Eg=1.11 Vaf=62.37 Bf=87.26 Ne=10.51
++  Ise=2.569u Ikf=.3751 Xtb=1.5 Br=.1259 Nc=2 Isc=2.196n Ikr=.37
++  Rb=80 Rc=15 Cjc=17.75p Mjc=.33 Vjc=.75 Fc=.5 Cje=39.43p Mje=.33
++  Vje=.75 Tr=862.1n Tf=3.205n Itf=80m Vtf=30 Xtf=1.5)
+.model q2T201g  NPN(Is=72.96f Xti=3 Eg=1.11 Vaf=79.03 Bf=213.5 Ne=2.219
++  Ise=365p Ikf=.1321 Xtb=1.5 Br=.23 Nc=2 Isc=3.16p Ikr=.155 Rc=12
++  Rb=120 Cjc=17.75p Mjc=.33 Vjc=.75 Fc=.5 Cje=39.43p Mje=.33 Vje=.75
++  Tr=290n Tf=2.105n Itf=60m Vtf=20 Xtf=2)
+*
+**** 2T203 Family
+*
+.model q2T203a  PNP(Is=459.4E-18 Xti=3 Eg=1.11 Vaf=85.5 Bf=29.73 
++  Ise=14.21f Ne=1.406 Ikf=24.22m Nk=.5 Xtb=1.5 Br=1.432 Isc=183.9f 
++  Nc=1.223 Ikr=.8622 Rb=265 Rc=.3177 Cjc=15.77p Mjc=.33 Vjc=.75 Fc=.5 
++  Cje=93.8p Mje=.5729 Vje=.75 Tr=10.33u Tf=20.58n Itf=.23 Xtf=2 Vtf=30)
+.model q2T203b  PNP(Is=459.4E-18 Xti=3 Eg=1.11 Vaf=46.32 Bf=59.84 
++  Ise=472E-18 Ne=1.23 Ikf=14.75m Nk=.5 Xtb=1.5 Br=.9521 Isc=183.9f 
++  Nc=1.223 Ikr=.8622 Rb=270 Rc=.3177 Cjc=12.95p Mjc=.33 Vjc=.75 Fc=.5 
++  Cje=93.8p Mje=.5729 Vje=.75 Tr=10.33u Tf=14.64n Itf=.25 Xtf=2 Vtf=20)
+.model q2T203v  PNP(Is=459.4E-18 Xti=3 Eg=1.11 Vaf=46.32 Bf=76.19 
++  Ise=1.666f Ne=1.288 Ikf=11.51m Nk=.5 Xtb=1.5 Br=1.432 Isc=183.9f 
++  Nc=1.223 Ikr=.8622 Rb=280 Rc=.3177 Cjc=15.77p Mjc=.33 Vjc=.75 Fc=.5 
++  Cje=93.8p Mje=.5729 Vje=.75 Tr=7.428u Tf=9.768n Itf=.3 Xtf=2 Vtf=10)
+*
+**** 2T208 Family
+*
+.model q2T208a  PNP(Is=8.347f Xti=3 Eg=1.11 Vaf=46.32 Bf=99.51 Ne=1.913 
++  Ise=64.3p Ikf=94.54m Xtb=1.5 Var=13 Br=12.49 Nc=2 Isc=64f Ikr=.305 
++  Rb=13 Rc=.45 Cjc=100p Mjc=.39 Vjc=.75 Fc=.5 Cje=93.8p Mje=.5729 
++  Vje=.75 Tr=383.4n Tf=30.35n Itf=.3 Vtf=20 Xtf=1.5)
+.model q2T208b  PNP(Is=8.347f Xti=3 Eg=1.11 Vaf=46.32 Bf=100 Ne=1.523 
++  Ise=357.9f Ikf=.6605 Xtb=1.5 Br=3.606 Nc=2 Isc=64f Ikr=.305 Rb=15 
++  Rc=.4 Cjc=100p Mjc=.39 Vjc=.75 Fc=.5 Cje=93.8p Mje=.5729 Vje=.75 
++  Tr=718.4n Tf=25.14n Itf=.3 Vtf=20 Xtf=1.5)
+.model q2T208v  PNP(Is=7.151f Xti=3 Eg=1.11 Vaf=46.32 Bf=138.9 Ne=1.934 
++  Ise=5.84p Ikf=1.068 Xtb=1.5 Br=3.606 Nc=2 Isc=64f Ikr=.305 Rb=15 
++  Rc=.4 Cjc=100p Mjc=.39 Vjc=.75 Fc=.5 Cje=93.8p  Mje=.5729 Vje=.75 
++  Tr=583.5n Tf=21.36n Itf=.3 Vtf=20 Xtf=1.5)
+.model q2T208g  PNP(Is=8.347f Xti=3 Eg=1.11 Vaf=46.32 Bf=99.51 Ne=1.913 
++  Ise=64.3p Ikf=94.54m Xtb=1.5 Var=13 Br=12.49 Nc=2 Isc=64f Ikr=.305 
++  Rb=13 Rc=.45 Cjc=100p Mjc=.39 Vjc=.75 Fc=.5 Cje=93.8p Mje=.5729 
++  Vje=.75 Tr=383.4n Tf=30.35n Itf=.3 Vtf=30 Xtf=1.5)
+.model q2T208d  PNP(Is=8.347f Xti=3 Eg=1.11 Vaf=46.32 Bf=100 Ne=1.523 
++  Ise=357.9f Ikf=.6605 Xtb=1.5 Br=3.606 Nc=2 Isc=64f Ikr=.305 Rb=15 
++  Rc=.4 Cjc=100p Mjc=.39 Vjc=.75 Fc=.5 Cje=93.8p Mje=.5729 Vje=.75 
++  Tr=718.4n Tf=25.14n Itf=.3 Vtf=30 Xtf=1.5)
+.model q2T208e  PNP(Is=7.151f Xti=3 Eg=1.11 Vaf=46.32 Bf=138.9 Ne=1.934 
++  Ise=5.84p Ikf=1.068 Xtb=1.5 Br=3.606 Nc=2 Isc=64f Ikr=.305 Rb=15 
++  Rc=.4 Cjc=100p Mjc=.39 Vjc=.75 Fc=.5 Cje=93.8p  Mje=.5729 Vje=.75 
++  Tr=583.5n Tf=21.36n Itf=.3 Vtf=30 Xtf=1.5)
+.model q2T208j  PNP(Is=8.347f Xti=3 Eg=1.11 Vaf=46.32 Bf=99.51 Ne=1.913 
++  Ise=64.3p Ikf=94.54m Xtb=1.5 Var=13 Br=12.49 Nc=2 Isc=64f Ikr=.305 
++  Rb=13 Rc=.45 Cjc=100p Mjc=.39 Vjc=.75 Fc=.5 Cje=93.8p Mje=.5729 
++  Vje=.75 Tr=383.4n Tf=30.35n Itf=.3 Vtf=45 Xtf=1.5)
+.model q2T208i  PNP(Is=8.347f Xti=3 Eg=1.11 Vaf=46.32 Bf=100 Ne=1.523 
++  Ise=357.9f Ikf=.6605 Xtb=1.5 Br=3.606 Nc=2 Isc=64f Ikr=.305 Rb=15 
++  Rc=.4 Cjc=100p Mjc=.39 Vjc=.75 Fc=.5 Cje=93.8p Mje=.5729 Vje=.75 
++  Tr=718.4n Tf=25.14n Itf=.3 Vtf=45 Xtf=1.5)
+.model q2T208k  PNP(Is=7.151f Xti=3 Eg=1.11 Vaf=46.32 Bf=138.9 Ne=1.934 
++  Ise=5.84p Ikf=1.068 Xtb=1.5 Br=3.606 Nc=2 Isc=64f Ikr=.305 Rb=15 
++  Rc=.4 Cjc=100p Mjc=.39 Vjc=.75 Fc=.5 Cje=93.8p  Mje=.5729 Vje=.75 
++  Tr=583.5n Tf=21.36n Itf=.3 Vtf=50 Xtf=1.5)
+.model q2T208l  PNP(Is=8.347f Xti=3 Eg=1.11 Vaf=46.32 Bf=99.51 Ne=1.913 
++  Ise=64.3p Ikf=94.54m Xtb=1.5 Var=13 Br=12.49 Nc=2 Isc=64f Ikr=.305 
++  Rb=13 Rc=.45 Cjc=100p Mjc=.39 Vjc=.75 Fc=.5 Cje=93.8p Mje=.5729 
++  Vje=.75 Tr=383.4n Tf=30.35n Itf=.3 Vtf=50 Xtf=1.5)
+.model q2T208m  PNP(Is=8.347f Xti=3 Eg=1.11 Vaf=46.32 Bf=100 Ne=1.523 
++  Ise=357.9f Ikf=.6605 Xtb=1.5 Br=3.606 Nc=2 Isc=64f Ikr=.305 Rb=15 
++  Rc=.4 Cjc=100p Mjc=.39 Vjc=.75 Fc=.5 Cje=93.8p Mje=.5729 Vje=.75 
++  Tr=718.4n Tf=25.14n Itf=.3 Vtf=50 Xtf=1.5)
+*
+**** 2T312 Family
+*
+.model q2T312a  NPN(Is=4.943f Xti=3 Eg=1.11 Vaf=85 Bf=66.43 Ne=1.492 
++  Ise=432.9f Ikf=.2951 Xtb=1.5 Br=.923 Nc=2 Isc=439f Ikr=.3 Rc=.65 
++  Rb=14.3 Cjc=8.43p Mjc=.283 Vjc=.75 Fc=.5 Cje=18.57p Mje=.33 
++  Vje=.75 Tr=137.5n Tf=1.221n Itf=50m Vtf=50 Xtf=2)
+.model q2T312b  NPN(Is=4.943f Xti=3 Eg=1.11 Vaf=85 Bf=74.91 Ne=1.87 
++  Ise=6.197p Ikf=.6263 Xtb=1.5 Br=.923 Nc=2 Isc=439f Ikr=.3 Rc=.65 
++  Rb=14.3 Cjc=8.06p Mjc=.3404 Vjc=.75 Fc=.5 Cje=18.57p Mje=.33 
++  Vje=.75 Tr=164.6n Tf=790p Itf=50m Vtf=50 Xtf=2)
+.model q2T312v  NPN(Is=4.943f Xti=3 Eg=1.11 Vaf=85 Bf=119.7 Ne=1.579 
++  Ise=295.1f Ikf=.5917 Xtb=1.5 Br=3.144 Nc=2 Isc=439f Ikr=.3 Rc=.65
++  Rb=14.3 Cjc=8.06p Mjc=.3404 Vjc=.75 Fc=.5 Cje=18.57p Mje=.33 
++  Vje=.75 Tr=164.6n Tf=790p Itf=50m Vtf=50 Xtf=2)
+*
+**** 2T313 Family
+*
+.model q2T313a PNP(Is=3.306f Xti=3 Eg=1.11 Vaf=86.3 Bf=153.6 Ne=1.36 
++  Ise=3.306f Ikf=2.47 Xtb=1.5 Var=40 Br=3.375 Nc=2 Isc=33.2f Ikr=.85 
++  Rb=23.2 Rc=1.345 Cjc=18.71p Vjc=.69 Mjc=.31 Fc=.5 Cje=30.64p Vje=.69 
++  Mje=.33 Tr=58.87n Tf=267.9p Itf=.785 Vtf=65 Xtf=2)
+.model q2T313b PNP(Is=3.306f Xti=3 Eg=1.11 Vaf=86.3 Bf=153.6 Ne=1.36 
++  Ise=3.306f Ikf=2.47 Xtb=1.5 Var=40 Br=3.375 Nc=2 Isc=33.2f Ikr=.85 
++  Rb=23.2 Rc=1.345 Cjc=18.71p Vjc=.69 Mjc=.31 Fc=.5 Cje=30.64p Vje=.69 
++  Mje=.33 Tr=58.87n Tf=267.9p Itf=.785 Vtf=65 Xtf=2)
+*
+**** KT315 Family
+*
+.model KT315a  NPN(Is=21.11f Xti=3 Eg=1.11 Vaf=115 Bf=79.74 Ise=233.2f
++  Ne=1.417 Ikf=.2922 Nk=.6296 Xtb=1.5 Br=1.3 Isc=107.3f Nc=1.298
++  Ikr=2.561 Rb=12 Rc=1.032 Cjc=8.988p Mjc=.33 Vjc=.75 Fc=.5 Cje=18.5p
++  Mje=.33 Vje=.75 Tr=244.3n Tf=321.4p Itf=1 Xtf=2 Vtf=60)
+.model KT315b  NPN(Is=14.34f Xti=3 Eg=1.11 Vaf=125 Bf=210.6 Ise=157.3f
++  Ne=1.558 Ikf=.2999 Nk=.5082 Xtb=1.5 Br=1 Isc=15.86f Nc=1.022
++  Ikr=3.163 Rb=15 Rc=3.748 Cjc=8.988p Mjc=.33 Vjc=.75 Fc=.5 Cje=18.5p
++  Mje=.33 Vje=.75 Tr=301.4n Tf=321.4p Itf=1 Xtf=2 Vtf=60)
+.model KT315v  NPN(Is=21.11f Xti=3 Eg=1.11 Vaf=157 Bf=81.09 Ise=321.2f
++  Ne=1.458 Ikf=.2017 Nk=.4901 Xtb=1.5 Br=1 Isc=84.36f Nc=1.317
++  Ikr=1.671 Rb=12 Rc=1.426 Cjc=9.716p Mjc=.33 Vjc=.75 Fc=.5 Cje=18.5p
++  Mje=.33 Vje=.75 Tr=275.6n Tf=321.4p Itf=1 Xtf=2 Vtf=60)
+.model KT315g  NPN(Is=14.34f Xti=3 Eg=1.11 Vaf=125 Bf=210.6 Ise=157.3f
++  Ne=1.558 Ikf=.2999 Nk=.5082 Xtb=1.5 Br=1 Isc=15.86f Nc=1.022
++  Ikr=3.163 Rb=15 Rc=3.748 Cjc=8.988p Mjc=.33 Vjc=.75 Fc=.5 Cje=18.5p
++  Mje=.33 Vje=.75 Tr=301.4n Tf=321.4p Itf=1 Xtf=2 Vtf=60)
+.model KT315d  NPN(Is=21.11f Xti=3 Eg=1.11 Vaf=115 Bf=79.74 Ise=233.2f
++  Ne=1.417 Ikf=.2922 Nk=.6296 Xtb=1.5 Br=1.3 Isc=107.3f Nc=1.298
++  Ikr=2.561 Rb=12 Rc=1.032 Cjc=8.988p Mjc=.33 Vjc=.75 Fc=.5 Cje=18.5p
++  Mje=.33 Vje=.75 Tr=244.3n Tf=321.4p Itf=1 Xtf=2 Vtf=60)
+*
+**** 2T316 Family
+*
+.model q2T316b NPN(Is=3.49f Xti=3 Eg=1.11 Vaf=102 Bf=74.97 Ne=1.483 
++  Ise=44.72f Ikf=.1322 Xtb=1.5 Var=55 Br=.2866 Nc=2 Isc=447f Ikr=.254 
++  Rb=66.7 Rc=7.33 Cjc=3.934p Vjc=.65 Mjc=.33 Fc=.5 Cje=1.16p Vje=.69 
++  Mje=.33 Tr=65.92n Tf=94.42p Itf=.15 Vtf=15 Xtf=2)
+.model q2T316v NPN(Is=3.49f Xti=3 Eg=1.11 Vaf=102 Bf=74.97 Ne=1.483 
++  Ise=44.72f Ikf=.1322 Xtb=1.5 Var=55 Br=.2866 Nc=2 Isc=447f Ikr=.254 
++  Rb=66.7 Rc=7.33 Cjc=3.934p Vjc=.65 Mjc=.33 Fc=.5 Cje=1.16p Vje=.69 
++  Mje=.33 Tr=65.92n Tf=94.42p Itf=.15 Vtf=15 Xtf=2)
+.model q2T316g NPN(Is=2.753f Xti=3 Eg=1.11 Vaf=96 Bf=86.5 Ne=2.496 
++  Ise=12.8p Ikf=97.23m Xtb=1.5 Var=55 Br=.6577 Nc=2 Isc=15.5p Ikr=.12 
++  Rb=70.6 Rc=8.35 Cjc=4.089p Vjc=.65 Mjc=.33 Fc=.5 Cje=1.16p Vje=.69 
++  Mje=.33 Tr=27.84n Tf=78.97p Itf=.151 Vtf=25 Xtf=2)
+.model q2T316d NPN(Is=2.753f Xti=3 Eg=1.11 Vaf=96 Bf=136.5 Ne=2.496 
++  Ise=12.8p Ikf=97.23m Xtb=1.5 Var=55 Br=.6577 Nc=2 Isc=15.5p Ikr=.12 
++  Rb=70.6 Rc=8.35 Cjc=4.089p Vjc=.65 Mjc=.33 Fc=.5 Cje=1.16p Vje=.69 
++  Mje=.33 Tr=27.84n Tf=78.97p Itf=.151 Vtf=25 Xtf=2)
+*
+**** 2T325 Family
+*
+.model q2T325a  NPN(Is=19.86f Xti=3 Eg=1.11 Vaf=87 Bf=84.21 Ise=336.8f
++  Ne=1.424 Ikf=76.88m Nk=.5 Xtb=1.5 Br=1.78 Isc=.1p Nc=1.744 Ikr=.6068
++  Rb=25 Rc=.2997 Cjc=3.549p Mjc=.333 Vjc=.75 Fc=.5 Cje=3.42p Mje=.333
++  Vje=.75 Tr=16.38n Tf=138.3p Itf=.3 Xtf=1.7 Vtf=25)
+.model q2T325b  NPN(Is=19.86f Xti=3 Eg=1.11 Vaf=87 Bf=165.9 Ise=1.151p 
++  Ne=1.612 Ikf=72.41m Nk=.5 Xtb=1.5 Br=1.78 Isc=.1p Nc=1.744 Ikr=.6068
++  Rb=27 Rc=.2997 Cjc=3.155p Mjc=.333 Vjc=.75 Fc=.5 Cje=3.42p Mje=.333
++  Vje=.75 Tr=11.53n Tf=138.3p Itf=.3 Xtf=1.7 Vtf=25)
+.model q2T325v  NPN(Is=9.164f Xti=3 Eg=1.11 Vaf=87 Bf=321.5 Ise=87.74f 
++  Ne=1.473 Ikf=87.77m Nk=.5 Xtb=1.5 Br=1.78 Isc=.1p Nc=1.744 Ikr=.6068
++  Rb=31 Rc=.2997 Cjc=2.958p Mjc=.333 Vjc=.75 Fc=.5 Cje=3.42p Mje=.333
++  Vje=.75 Tr=8.891n Tf=112.2p Itf=.3 Xtf=2 Vtf=25)
+*
+**** 2T326 Family
+*
+.model q2T326a PNP(Is=496.3E-18 Xti=3 Eg=1.11 Vaf=110 Bf=79.59 Ne=1.376
++  Ise=8.406f Ikf=.106 Nk=.5 Xtb=1.5 Br=1 Isc=496.3E-18 Nc=1.636
++  Ikr=1u Rb=42 Rc=2.141 Cjc=3.7p Mjc=.33 Vjc=.75 Fc=.5 Cje=1.442p
++  Mje=.33 Vje=.75 Tr=3.696u Tf=443.3p Itf=1 Xtf=2 Vtf=20)
+.model q2T326b PNP(Is=16.64f Xti=3 Eg=1.11 Vaf=115 Bf=99.06 Ne=2.527
++  Ise=54.12p Ikf=.6751 Xtb=1.5 Var=63 Br=1.75 Nc=2 Isc=12.5f Ikr=.52 
++  Rb=52.4 Rc=1.85 Cjc=4.089p Vjc=.69 Mjc=.33 Fc=.5 Cje=3.375p Vje=.75 
++  Mje=.35 Tr=40.04n Tf=160.2p Itf=.1 Vtf=10 Xtf=2)
+*
+**** KT351 Family
+*
+.model KT342a  NPN(Is=5.997f Xti=3 Eg=1.11 Vaf=106.8 Bf=394.1 Ise=38.23f
++  Ne=1.421 Ikf=.1685 Nk=.4727 Xtb=1.5 Br=1 Isc=23.96f Nc=1.34
++  Ikr=2.077 Rb=19 Rc=.9855 Cjc=10.44p Mjc=.3906 Vjc=.75 Fc=.5
++  Cje=14.23p Mje=.33 Vje=.75 Tr=78.22n Tf=307.5p Itf=.52 Xtf=2 Vtf=50)
+.model KT342b   NPN(Is=5.997f Xti=3 Eg=1.11 Vaf=95.7 Bf=739.7 Ise=50.36f
++  Ne=1.496 Ikf=.1479 Nk=.5 Xtb=1.5 Br=1 Isc=23.96f Nc=1.34
++  Ikr=2.077 Rb=23 Rc=.9855 Cjc=10.44p Mjc=.3906 Vjc=.75 Fc=.5
++  Cje=14.23p Mje=.33 Vje=.75 Tr=78.22n Tf=307.5p Itf=.52 Xtf=2 Vtf=50)
+.model KT342v   NPN(Is=5.997f Xti=3 Eg=1.11 Vaf=86.61 Bf=956.7 Ise=46.78f
++  Ne=1.566 Ikf=.1922 Nk=.5 Xtb=1.5 Br=1 Isc=23.96f Nc=1.34
++  Ikr=2.077 Rb=25 Rc=.98 Cjc=10.44p Mjc=.3906 Vjc=.75 Fc=.5  Cje=14.23p 
++  Mje=.33 Vje=.75 Tr=89.4u Tf=232.1p Itf=4.185 Xtf=3.3 Vtf=50)
+*
+**** KT351 Family
+*
+.model KT351a PNP(Is=4.943f Xti=3 Eg=1.11 Vaf=110 Bf=91.56 Ne=1.776 
++  Ise=1.436p Ikf=.2116 Xtb=1.5 Var=25 Br=1.215 Nc=2 Isc=1.45p Ikr=.25 
++  Rb=75 Rc=.44 Cjc=15.05p Vjc=.69 Mjc=.33 Fc=.5 Cje=24.48p Vje=.65 
++  Mje=.33 Tr=223.6n Tf=217.4p Itf=.28 Vtf=35 Xtf=2)
+.model KT351b PNP(Is=4.943f Xti=3 Eg=1.11 Vaf=110 Bf=185.3 Ne=1.776 
++  Ise=1.436p Ikf=.2116 Xtb=1.5 Var=25 Br=1.215 Nc=2 Isc=1.45p Ikr=.25 
++  Rb=75 Rc=.44 Cjc=15.05p Vjc=.69 Mjc=.33 Fc=.5 Cje=24.48p Vje=.65 
++  Mje=.33 Tr=223.6n Tf=217.4p Itf=.28 Vtf=35 Xtf=2)
+*
+**** KT355
+*
+.model q2T355a NPN(Is=14.02f Xti=3 Eg=1.11 Vaf=82.35 Bf=172.2 Ne=2.211
++  Ise=9.573p Ikf=.2809 Xtb=1.5 Var=45 Br=.8636 Nc=2 Isc=1.12p Ikr=.253 
++  Rb=41.6 Rc=3.55 Cjc=2.742p Vjc=.75 Mjc=.33 Fc=.5 Cje=2.635p Vje=.69 
++  Mje=.33 Tr=76.29n Tf=65.28p Itf=.532 Vtf=15 Xtf=2)
+*
+**** KT357 Family
+*
+.model KT357a   PNP(Is=67.34f Xti=3 Eg=1.11 Vaf=80 Bf=70.83 Ise=746.1f
++  Ne=1.452 Ikf=.1929 Nk=.5153 Xtb=1.5 Br=1 Isc=67.34f Nc=1.071
++  Ikr=2.269 Rc=3.665 Rb=50 Cjc=12.15p Mjc=.33 Vjc=.75 Fc=.5 Cje=18.5p
++  Mje=.33 Vje=.75 Tr=275.6n Tf=160.9p Itf=56.6m Xtf=.3203 Vtf=40)
+.model KT357b   PNP(Is=31.08f Xti=3 Eg=1.11 Vaf=75 Bf=203.3 Ise=325.3f
++  Ne=1.534 Ikf=.2072 Nk=.5155 Xtb=1.5 Br=1 Isc=34.36f Nc=1.022
++  Ikr=3.163 Rc=3.748 Rb=70 Cjc=10.93p Mjc=.33 Vjc=.75 Fc=.5 Cje=18.5p
++  Mje=.33 Vje=.75 Tr=275.6n Tf=91.32p Itf=.1303 Xtf=1.762 Vtf=40)
+*
+**** 2T361 Family
+*
+.model KT361a   PNP(Is=67.34f Xti=3 Eg=1.11 Vaf=80 Bf=70.83 Ise=746.1f
++  Ne=1.452 Ikf=.1929 Nk=.5153 Xtb=1.5 Br=1 Isc=67.34f Nc=1.071
++  Ikr=2.269 Rc=3.665 Rb=50 Cjc=12.15p Mjc=.33 Vjc=.75 Fc=.5 Cje=18.5p
++  Mje=.33 Vje=.75 Tr=275.6n Tf=160.9p Itf=56.6m Xtf=.3203 Vtf=40)
+.model KT361b   PNP(Is=31.08f Xti=3 Eg=1.11 Vaf=75 Bf=203.3 Ise=325.3f
++  Ne=1.534 Ikf=.2072 Nk=.5155 Xtb=1.5 Br=1 Isc=34.36f Nc=1.022
++  Ikr=3.163 Rc=3.748 Rb=70 Cjc=10.93p Mjc=.33 Vjc=.75 Fc=.5 Cje=18.5p
++  Mje=.33 Vje=.75 Tr=275.6n Tf=91.32p Itf=.1303 Xtf=1.762 Vtf=40)
+.model KT361v   PNP(Is=67.34f Xti=3 Eg=1.11 Vaf=90.7 Bf=81.94 Ise=579.7f
++  Ne=1.51 Ikf=.2136 Nk=.5064 Xtb=1.5 Br=1 Isc=67.34f Nc=1.071
++  Ikr=2.269 Rc=3.665 Cjc=8.502p Mjc=.33 Vjc=.75 Fc=.5 Cje=18.5p
++  Mje=.33 Vje=.75 Tr=275.6n Tf=125.8p Itf=1.202 Xtf=5.752 Vtf=60)
+.model KT361g   PNP(Is=31.08f Xti=3 Eg=1.11 Vaf=75 Bf=203.3 Ise=325.3f
++  Ne=1.534 Ikf=.2072 Nk=.5155 Xtb=1.5 Br=1 Isc=34.36f Nc=1.022
++  Ikr=3.163 Rc=3.748 Rb=70 Cjc=10.93p Mjc=.33 Vjc=.75 Fc=.5 Cje=18.5p
++  Mje=.33 Vje=.75 Tr=275.6n Tf=91.32p Itf=.1303 Xtf=1.762 Vtf=40)
+.model KT361d   PNP(Is=67.34f Xti=3 Eg=1.11 Vaf=80 Bf=70.83 Ise=746.1f
++  Ne=1.452 Ikf=.1929 Nk=.5153 Xtb=1.5 Br=1 Isc=67.34f Nc=1.071
++  Ikr=2.269 Rc=3.665 Rb=50 Cjc=12.15p Mjc=.33 Vjc=.75 Fc=.5 Cje=18.5p
++  Mje=.33 Vje=.75 Tr=275.6n Tf=160.9p Itf=56.6m Xtf=.3203 Vtf=40)
+*
+**** KT363 Family
+*
+.model q2T363a PNP(Is=11.8f Xti=3 Eg=1.11 Vaf=95.7 Bf=100.6 Ne=1.971 
++  Ise=1.834p Ikf=.195 Xtb=1.5 Var=65 Br=1.18 Nc=2 Isc=1p Ikr=.3 Rb=80
++  Rc=1.6 Cjc=2.958p Vjc=.69 Mjc=.33 Fc=.5 Cje=1.112p Vje=.71 Mje=.35 
++  Tr=6.149n Tf=41.32p Itf=.12 Vtf=10 Xtf=2)
+.model q2T363b PNP(Is=11.8f Xti=3 Eg=1.11 Vaf=95.7 Bf=156.2 Ne=1.971 
++  Ise=1.834p Ikf=.195 Xtb=1.5 Var=65 Br=1.18 Nc=2 Isc=1p Ikr=.3 Rb=67.5
++  Rc=1.6 Cjc=2.958p Vjc=.69 Mjc=.33 Fc=.5 Cje=1.112p Vje=.71 Mje=.35 
++  Tr=6.149n Tf=41.32p Itf=.12 Vtf=10 Xtf=2)
+*
+**** KT368 Family
+*
+.model q2T368a NPN(Is=8.675f Xti=3 Eg=1.11 Vaf=108 Bf=250.5 Ne=1.377 
++  Ise=9.128f Ikf=.3608 Xtb=1.5 Var=56 Br=1.45 Nc=2 Isc=16.3f Ikr=.125 
++  Rb=31.5 Rc=2.445 Cjc=2.35p Vjc=.75 Mjc=.33 Fc=.5 Cje=2.786p Vje=.69 
++  Mje=.37 Tr=2.147n Tf=84.62p Itf=.15 Vtf=25 Xtf=2)
+.model q2T368b NPN(Is=8.675f Xti=3 Eg=1.11 Vaf=108 Bf=325.3 Ne=1.377 
++  Ise=9.128f Ikf=.3608 Xtb=1.5 Var=56 Br=1.45 Nc=2 Isc=16.3f Ikr=.125 
++  Rb=31.5 Rc=2.445 Cjc=2.35p Vjc=.75 Mjc=.33 Fc=.5 Cje=2.786p Vje=.69 
++  Mje=.37 Tr=2.147n Tf=84.62p Itf=.15 Vtf=25 Xtf=2)
+*
+**** KT371
+*
+.model q2T371a NPN(Is=1.378f Xti=3 Eg=1.11 Vaf=68.25 Bf=236 Ne=1.479 
++  Ise=43.8f Ikf=.1777 Xtb=1.5 Var=45 Br=3.414 Nc=2 Isc=55f Ikr=35m 
++  Rb=44.1 Rc=2.8 Cjc=1.932p Vjc=.75 Mjc=.33 Fc=.5 Cje=1.747p Vje=.69 
++  Mje=.33 Tr=13.65n Tf=43.78p Itf=.35 Vtf=10 Xtf=2)
+*
+**** KT3101
+*
+.model KT3101a  NPN(Is=25.63f Xti=3 Eg=1.11 Vaf=56 Bf=245.8 Ne=1.254 
++  Ise=27.93f Ikf=54.66m Xtb=1.5 Var=20 Br=1.883 Nc=2 Isc=108.6f Ikr=57.63m 
++  Rb=28 Rbm=8 Irb=.72m Rc=3.45 Cjc=1.166p Mjc=.2974 Vjc=.75 Fc=.5 Xcjc=0.5 
++  Cje=1.354p Mje=.3137 Vje=.65 Tr=463.8p Tf=22.39p Itf=.367 Vtf=12 Xtf=2)
+*
+**** KT3102 Family
+*
+.model KT3102a NPN(Is=5.258f Xti=3 Eg=1.11 Vaf=86 Bf=185.1 Ne=7.428 
++  Ise=28.21n Ikf=.4922 Xtb=1.5 Var=25 Br=2.713 Nc=2 Isc=21.2p Ikr=.25 
++  Rb=52 Rc=1.65 Cjc=9.921p Vjc=.65 Mjc=.33 Fc=.5 Cje=11.3p Vje=.69 
++  Mje=.33 Tr=57.71n Tf=611.5p Itf=.52 Vtf=80 Xtf=2)
+.model KT3102b NPN(Is=3.628f Xti=3 Eg=1.11 Vaf=72 Bf=303.3 Ne=13.47 
++  Ise=43.35n Ikf=96.35m Xtb=1.5 Var=30 Br=3.201 Nc=2 Isc=5.5p Ikr=.1 
++  Rb=37 Rc=1.12 Cjc=11.02p Vjc=.65 Mjc=.33 Fc=.5 Cje=13.31p Vje=.69 
++  Mje=.33 Tr=41.67n Tf=493.4p Itf=.12 Vtf=50 Xtf=2)
+.model KT3102bm NPN(Is=891.4E-18 Xti=3 Eg=1.11 Vaf=64 Bf=311.9 Ne=4.136
++  Ise=594.5p Ikf=60.16m Xtb=1.5 Var=25 Br=5.622 Nc=2 Isc=1.225p Ikr=.25 
++  Rb=59 Rc=1.23 Cjc=9.186p Vjc=.65 Mjc=.33 Fc=.5 Cje=9.139p Vje=.69 
++  Mje=.33 Tr=28.24n Tf=786.5p Itf=.2 Vtf=30 Xtf=2)
+.model KT3102v  NPN(Is=3.628f Xti=3 Eg=1.11 Vaf=58.2 Bf=333.4 Ise=35.48f
++  Ne=1.602 Ikf=.1538 Nk=.5 Xtb=1.5 Br=1.546 Isc=18.26f Nc=1.585
++  Ikr=.6305 Rb=30 Rc=.1636 Cjc=11.02p Mjc=.33 Vjc=.65 Fc=.5 Cje=11.3p
++  Mje=.33 Vje=.69 Tr=41.67n Tf=493.4p Itf=.3 Xtf=2 Vtf=40)
+.model KT3102g  NPN(Is=2.99f Xti=3 Eg=1.11 Vaf=58.2 Bf=831 Ise=27.52f 
++  Ne=1.623 Ikf=.1121 Nk=.5 Xtb=1.5 Br=1 Isc=211.5f Nc=1.76 Ikr=1.586
++  Rb=42 Rc=.4274 Cjc=8.873p Mjc=.33 Vjc=.75 Fc=.5 Cje=11.3p Mje=.33
++  Vje=.69 Tr=41.67n Tf=386.3p Itf=1 Xtf=2 Vtf=40)
+.model KT3102d  NPN(Is=3.628f Xti=3 Eg=1.11 Vaf=58.2 Bf=288.6 Ise=33.28f
++  Ne=1.634 Ikf=.1893 Nk=.5 Xtb=1.5 Br=1.546 Isc=18.26f Nc=1.585
++  Ikr=.6305 Rb=35 Rc=.1636 Cjc=11.02p Mjc=.33 Vjc=.65 Fc=.5 Cje=11.3p
++  Mje=.33 Vje=.69 Tr=41.67n Tf=493.4p Itf=.3 Xtf=2 Vtf=30)
+.model KT3102e  NPN(Is=2.99f Xti=3 Eg=1.11 Vaf=58.2 Bf=868.9 Ise=15.81f 
++  Ne=1.65 Ikf=.179 Nk=.5 Xtb=1.5 Br=1 Isc=211.5f Nc=1.76 Ikr=1.586
++  Rb=53 Rc=.4274 Cjc=7.887p Mjc=.33 Vjc=.75 Fc=.5 Cje=11.3p Mje=.33
++  Vje=.69 Tr=41.67n Tf=386.3p Itf=1 Xtf=2 Vtf=30)
+*
+**** KT3107 Family
+*
+.model KT3107a PNP(Is=6.545f Xti=3 Eg=1.11 Vaf=86.5 Bf=105.5 Ne=8.56 
++  Ise=7.735n Ikf=.1862 Xtb=1.5 Var=32 Br=1.62 Nc=2 Isc=3.35p Ikr=12m 
++  Rb=39.1 Rc=.71 Cjc=12.83p Vjc=.65 Mjc=.33 Fc=.5 Cje=12.59p Vje=.69 
++  Mje=.35 Tr=30.5n Tf=477.5p Itf=56m Vtf=35 Xtf=2)
+.model KT3107b PNP(Is=2.111f Xti=3 Eg=1.11 Vaf=68.5 Bf=145.2 Ne=2.367
++  Ise=7.338p Ikf=.242 Xtb=1.5 Var=32 Br=7.573 Nc=2 Isc=1.55p Ikr=25m 
++  Rb=25.5 Rc=.75 Cjc=11.86p Vjc=.69 Mjc=.33 Fc=.5 Cje=13.01p Vje=.69 
++  Mje=.35 Tr=20.11n Tf=474p Itf=.15 Vtf=25 Xtf=1)
+.model KT3107v PNP(Is=6.545f Xti=3 Eg=1.11 Vaf=86.5 Bf=105.5 Ne=8.56 
++  Ise=7.735n Ikf=.1862 Xtb=1.5 Var=32 Br=1.62 Nc=2 Isc=3.35p Ikr=12m 
++  Rb=39.1 Rc=.71 Cjc=12.83p Vjc=.65 Mjc=.33 Fc=.5 Cje=12.59p Vje=.69 
++  Mje=.35 Tr=30.5n Tf=477.5p Itf=56m Vtf=35 Xtf=2)
+.model KT3107g PNP(Is=6.531f Xti=3 Eg=1.11 Vaf=68.5 Bf=237.5 Ne=2.367
++  Ise=7.338p Ikf=.242 Xtb=1.5 Var=32 Br=7.573 Nc=2 Isc=1.55p Ikr=25m 
++  Rb=25.5 Rc=.75 Cjc=11.86p Vjc=.69 Mjc=.33 Fc=.5 Cje=13.01p Vje=.69 
++  Mje=.35 Tr=20.11n Tf=474p Itf=.15 Vtf=25 Xtf=1)
+*
+**** 2T3108 Family
+*
+.model q2T3108a PNP(Is=1.41f Xti=3 Eg=1.11 Vaf=87 Bf=112.7 Ne=3.346 
++  Ise=114.2p Ikf=31.92m Xtb=1.5 Br=1.883 Nc=2 Isc=114f Ikr=31m Rc=4.25
++  Rb=52 Cjc=4.372p Mjc=.33 Vjc=.75 Fc=.5 Cje=3.714p Mje=.33 Vje=.75
++  Tr=67.31n Tf=344.1p Itf=56m Vtf=45 Xtf=1.5)
+.model q2T3108b PNP(Is=863E-18 Xti=3 Eg=1.11 Vaf=85 Bf=112.4 Ne=12.53
++  Ise=37.65n Ikf=27.99m Xtb=1.5 Var=26 Br=2.984 Nc=2 Isc=1.25p Ikr=56m 
++  Rb=52 Rc=4.24 Cjc=4.529p Vjc=.65 Mjc=.33 Fc=.5 Cje=3.763p Vje=.69 
++  Mje=.33 Tr=43.55n Tf=292.3p Itf=58m Vtf=55 Xtf=2)
+.model q2T3108v PNP(Is=1.41f Xti=3 Eg=1.11 Vaf=83 Bf=223.5 Ne=3.657 
++  Ise=101p Ikf=35.11m Xtb=1.5 Br=1.655 Nc=2 Isc=114f Ikr=31m Rc=4.5
++  Rb=52 Cjc=4.372p Mjc=.33 Vjc=.75 Fc=.5 Cje=3.714p Mje=.33 Vje=.75
++  Tr=63.22n Tf=339.5p Itf=93m Vtf=40 Xtf=1.5)
+*
+*** KT3117 Family
+*
+.model KT3117a NPN(Is=61.27f Xti=3 Eg=1.11 Vaf=95.7 Bf=182 Ne=2.744 
++  Ise=9.293n Ikf=2.622 Xtb=1.5 Var=65 Br=1.894 Nc=2 Isc=1.2n Ikr=2.65 
++  Rb=30.7 Rc=.75 Cjc=28.58p Mjc=.4701 Vjc=.75 Fc=.5 Cje=68.82p Mje=.1985
++  Vje=.75 Tr=32.04n Tf=261.9p Itf=2.5 Vtf=40 Xtf=1.5)
+.model q2T3117a NPN(Is=61.27f Xti=3 Eg=1.11 Vaf=95.7 Bf=182 Ne=2.744 
++  Ise=9.293n Ikf=2.622 Xtb=1.5 Var=65 Br=1.894 Nc=2 Isc=1.2n Ikr=2.65 
++  Rb=30.7 Rc=.75 Cjc=28.58p Mjc=.4701 Vjc=.75 Fc=.5 Cje=68.82p Mje=.1985
++  Vje=.75 Tr=32.04n Tf=261.9p Itf=2.5 Vtf=40 Xtf=1.5)
+*
+**** KT502  Family
+*
+.model KT502a   PNP(Is=3.48f Xti=3 Eg=1.11 Vaf=60 Bf=121.1 Ise=27.32f
++  Ne=1.358 Ikf=74.95m Nk=.4803 Xtb=1.5 Br=1 Isc=13.91f Nc=1.34
++  Ikr=2.077 Rb=12 Rc=.9855 Cjc=23.66p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=26.53p Mje=.33 Vje=.75 Tr=923.3n Tf=10.3n Itf=1 Xtf=2 Vtf=25)
+.model KT502b   PNP(Is=3.48f Xti=3 Eg=1.11 Vaf=60 Bf=209.4 Ise=54.03f
++  Ne=1.457 Ikf=27.44m Nk=.5 Xtb=1.5 Br=1.2 Isc=13.91f Nc=1.34
++  Ikr=2.077 Rb=15 Rc=1.133 Cjc=23.66p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=26.53p Mje=.33 Vje=.75 Tr=712.7n Tf=7.62n Itf=1 Xtf=2 Vtf=25)
+.model KT502v   PNP(Is=7.541f Xti=3 Eg=1.11 Vaf=115 Bf=118.8 Ise=61.46f
++  Ne=1.382 Ikf=.1498 Nk=.593 Xtb=1.5 Br=2.3 Isc=13.91f Nc=1.34
++  Ikr=2.077 Rb=10 Rc=1.2 Cjc=23.66p Mjc=.33 Vjc=.75 Fc=.5 Cje=26.53p
++  Mje=.33 Vje=.75 Tr=363.5n Tf=10.3n Itf=1 Xtf=2 Vtf=25)
+.model KT502g   PNP(Is=3.48f Xti=3 Eg=1.11 Vaf=100 Bf=209.4 Ise=54.03f
++  Ne=1.457 Ikf=27.44m Nk=.5 Xtb=1.5 Br=1.2 Isc=13.91f Nc=1.34
++  Ikr=2.077 Rb=15 Rc=1.133 Cjc=23.66p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=26.53p Mje=.33 Vje=.75 Tr=712.7n Tf=7.62n Itf=1 Xtf=2 Vtf=40)
+.model KT502d   PNP(Is=7.541f Xti=3 Eg=1.11 Vaf=115 Bf=118.7 Ise=73.88f
++  Ne=1.396 Ikf=.1211 Nk=.5237 Xtb=1.5 Br=2.3 Isc=13.91f Nc=1.34
++  Ikr=2.077 Rb=15 Rc=1.2 Cjc=23.66p Mjc=.33 Vjc=.75 Fc=.5 Cje=26.53p
++  Mje=.33 Vje=.75 Tr=484.6n Tf=12.96n Itf=1 Xtf=2 Vtf=50)
+.model KT502e   PNP(Is=3.48f Xti=3 Eg=1.11 Vaf=120 Bf=121.1 Ise=27.32f
++  Ne=1.358 Ikf=74.95m Nk=.4803 Xtb=1.5 Br=1 Isc=13.91f Nc=1.34
++  Ikr=2.077 Rb=12 Rc=.9855 Cjc=23.66p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=26.53p Mje=.33 Vje=.75 Tr=923.3n Tf=10.3n Itf=1 Xtf=2 Vtf=80)
+*
+**** KT503 Family
+*
+.model KT503a   NPN(Is=6.843f Xti=3 Eg=1.11 Vaf=60 Bf=104.8 Ise=70.91f
++  Ne=1.372 Ikf=.4526 Nk=.5243 Xtb=1.5 Br=1.1 Isc=26.4p Nc=2.088
++  Ikr=1.637 Rb=12 Rc=1.538 Cjc=23.66p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=30.84p Mje=.33 Vje=.75 Tr=648.9n Tf=10.09n Itf=1 Xtf=2 Vtf=10)
+.model KT503b   NPN(Is=10.07f Xti=3 Eg=1.11 Vaf=60 Bf=166.4 Ise=100.2f
++  Ne=1.452 Ikf=.6117 Nk=.4667 Xtb=1.5 Br=1.7 Isc=47.49f Nc=1.715
++  Ikr=.7018 Rb=6 Rc=1.208 Cjc=23.66p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=30.84p Mje=.33 Vje=.75 Tr=390.4n Tf=10.09n Itf=1 Xtf=2 Vtf=40)
+.model KT503v   NPN(Is=6.843f Xti=3 Eg=1.11 Vaf=114 Bf=130.7 Ise=56.77f
++  Ne=1.358 Ikf=.2659 Nk=.4211 Xtb=1.5 Br=1.2 Isc=26.4p Nc=2.088
++  Ikr=1.637 Rb=6 Rc=1.538 Cjc=23.66p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=30.84p Mje=.33 Vje=.75 Tr=648.9n Tf=15.39n Itf=1 Xtf=2 Vtf=30)
+.model KT503g   NPN(Is=10.07f Xti=3 Eg=1.11 Vaf=145 Bf=166.4 Ise=100.2f
++  Ne=1.452 Ikf=.6117 Nk=.4667 Xtb=1.5 Br=1.7 Isc=47.49f Nc=1.715
++  Ikr=.7018 Rb=6 Rc=1.208 Cjc=23.66p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=30.84p Mje=.33 Vje=.75 Tr=390.4n Tf=10.09n Itf=1 Xtf=2 Vtf=40)
+.model KT503d   NPN(Is=6.843f Xti=3 Eg=1.11 Vaf=129 Bf=106.6 Ise=66.48f
++  Ne=1.384 Ikf=.8419 Nk=.6328 Xtb=1.5 Br=1.2 Isc=26.4p Nc=2.088
++  Ikr=1.637 Rb=6 Rc=1.538 Cjc=23.66p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=30.84p Mje=.33 Vje=.75 Tr=648.9n Tf=12.74n Itf=1 Xtf=2 Vtf=30)
+.model KT503e   NPN(Is=6.843f Xti=3 Eg=1.11 Vaf=145.2 Bf=104.8 Ise=70.91f
++  Ne=1.372 Ikf=.4526 Nk=.5243 Xtb=1.5 Br=1.1 Isc=26.4p Nc=2.088
++  Ikr=1.637 Rb=12 Rc=1.538 Cjc=23.66p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=30.84p Mje=.33 Vje=.75 Tr=648.9n Tf=10.09n Itf=1 Xtf=2 Vtf=60)
+*
+**** 2T504 - 505 Family
+*
+.model q2T504a  NPN(Is=26.98f Xti=3 Eg=1.11 Vaf=138 Bf=209.7 Ise=498.3f 
++  Ne=1.412 Ikf=1.14 Nk=.5971 Xtb=1.5 Br=1.93 Isc=275.6f Nc=1.445
++  Ikr=81.42m Rb=6.7 Rc=.5483 Cjc=38.87p Mjc=.35 Vjc=.75 Fc=.5 Cje=592.8p
++  Mje=.33 Vje=.65 Tr=810.9n Tf=1.867n Itf=10.8 Xtf=2 Vtf=40)
+*
+.model q2T505a  PNP(Is=77.95f Xti=3 Eg=1.11 Vaf=98 Bf=242.4 Ise=890f 
++  Ne=1.403 Ikf=2.079 Nk=.6286 Xtb=1.5 Br=1.93 Isc=53.03p Nc=1.441
++  Ikr=81.42m Rb=8.3 Rc=.6239 Cjc=59.15p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=474.3p Mje=.33 Vje=.65 Tr=810.9n Tf=3.558n Itf=8 Xtf=2 Vtf=40)
+*
+**** KT603 - KT605 Family
+*
+.model q2T603a  NPN(Is=91.85f Xti=3 Eg=1.11 Vaf=90 Bf=73.42 Ne=1.299 
++  Ise=410f Ikf=1.033 Xtb=1.5 Br=.3123 Nc=2 Isc=1.265p Ikr=.41 Rc=1.17
++  Rb=12 Cjc=5.646p Mjc=.3443 Vjc=.75 Fc=.5 Cje=28.89p Mje=.283 Vje=.75
++  Tr=255.1n Tf=389.2p Itf=2.04 Vtf=60 Xtf=2)
+.model q2T603b  NPN(Is=91.85f Xti=3 Eg=1.11 Vaf=80 Bf=140.3 Ne=1.299 
++  Ise=410f Ikf=1.033 Xtb=1.5 Br=1.113 Nc=2 Isc=1.265p Ikr=.41 Rc=1.17
++  Rb=12 Cjc=5.646p Mjc=.3443 Vjc=.75 Fc=.5 Cje=28.89p Mje=.283 Vje=.75
++  Tr=255.1n Tf=389.2p Itf=2.04 Vtf=60 Xtf=2)
+*
+.model KT604a   NPN(Is=19.56f Xti=3 Eg=1.11 Vaf=110 Bf=109.6 Ne=1.427 
++  Ise=209f Ikf=1.478 Xtb=1.5 Br=.113 Nc=2 Isc=1.265p Ikr=.34 Rc=6.14
++  Rb=18 Cjc=11.42p Mjc=.3159 Vjc=.75 Fc=.5 Cje=31.04p Mje=.2732 Vje=.75
++  Tr=1.238u Tf=814.9p Itf=1.27 Vtf=80 Xtf=2)
+*
+.model KT605a   NPN(Is=19.56f Xti=3 Eg=1.11 Vaf=110 Bf=109.6 Ne=1.427 
++  Ise=209f Ikf=1.478 Xtb=1.5 Br=.113 Nc=2 Isc=1.265p Ikr=.34 Rc=6.14
++  Rb=23 Cjc=11.42p Mjc=.3159 Vjc=.75 Fc=.5 Cje=31.04p Mje=.2732 Vje=.75
++  Tr=1.238u Tf=814.9p Itf=1.27 Vtf=80 Xtf=2)
+*
+**** KT630 - 638 Family
+*
+.model q2T630a  NPN(Is=7.433f Xti=3 Eg=1.11 Vaf=112 Bf=217 Ise=28.05f
++  Ne=1.255 Ikf=.8802 Nk=.6361 Xtb=1.5 Br=1.922 Isc=77.34f Nc=1.547 
++  Ikr=1.453 Rb=1.2 Rc=.3548 Cjc=21.86p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=47.43p Mje=.33 Vje=.75 Tr=89.07n Tf=1.83n Itf=3 Xtf=.3 Vtf=60)
+.model q2T630b NPN(Is=17.03f Xti=3 Eg=1.11 Vaf=123 Bf=472.7 Ne=1.368 
++  Ise=163.3f Ikf=.4095 Xtb=1.5 Var=75 Br=4.804 Nc=2 Isc=1.35p Ikr=.21 
++  Rb=1.4 Rc=.65 Cjc=21.24p Vjc=.69 Mjc=.33 Fc=.5 Cje=34.4p Vje=.69 
++  Mje=.35 Tr=50.12n Tf=1.795n Itf=.65 Vtf=60 Xtf=1.1)
+*
+.model q2T632a  PNP(Is=14.34f Xti=3 Eg=1.11 Vaf=106 Bf=157.2 Ise=107f
++  Ne=1.424 Ikf=.1495 Nk=.4496 Xtb=1.5 Br=.85 Isc=8.399p Nc=2.28
++  Ikr=.1449 Rb=44.3 Rc=3.208 Cjc=9.073p Mjc=.33 Vjc=.7 Fc=.5 Mje=.33
++  Cje=25.11p Vje=.65 Tr=1.49u Tf=531.4p Itf=65.94m Xtf=.2 Vtf=40)
+*
+.model q2T638a  NPN(Is=49.43f Xti=3 Eg=1.11 Vaf=120 Bf=156.7 Ise=321.8f
++  Ne=1.45 Ikf=.2839 Nk=.5 Xtb=1.5 Br=.58 Isc=5.44p Nc=2.28 Ikr=.142 
++  Rb=45.2 Rc=4.75 Cjc=12.1p Mjc=.33 Vjc=.75 Fc=.5 Cje=32.14p
++  Mje=.33 Vje=.75 Tr=1.725u Tf=501.7p Itf=24.56m Xtf=95.24m Vtf=40)
+*
+**** 2T653 Family
+*
+.model q2T653a  NPN(Is=44.97f Xti=3 Eg=1.11 Vaf=113.3 Bf=130.5 Ise=466.8f
++  Ne=1.384 Ikf=1.511 Nk=.8169 Xtb=1.5 Br=1.93 Isc=640.4f Nc=1.441
++  Ikr=81.42m Rb=12 Rc=.6239 Cjc=17p Mjc=.33 Vjc=.75 Fc=.5 Cje=41.5p
++  Mje=.33 Vje=.75 Tr=393.8n Tf=805.3p Itf=1 Xtf=2 Vtf=60)
+.model q2T653b  NPN(Is=44.97f Xti=3 Eg=1.11 Vaf=79.03 Bf=179.9 Ise=228.5f
++  Ne=1.363 Ikf=.9461 Nk=.7366 Xtb=1.5 Br=1.93 Isc=640.4f Nc=1.441
++  Ikr=81.42m Rb=25 Rc=.6239 Cjc=17p Mjc=.33 Vjc=.75 Fc=.5 Cje=41.5p
++  Mje=.33 Vje=.75 Tr=451.8n Tf=715.8p Itf=3 Xtf=2 Vtf=50)
+*
+**** KT809 Family
+*
+.model q2T809a  NPN(Is=130.1f Xti=3 Eg=1.11 Vaf=100 Bf=82.09 Ise=217.3p
++  Ne=1.719 Ikf=5.346 Nk=.4488 Xtb=1.5 Br=2.813 Isc=2.51p Nc=1.493
++  Ikr=1.238 Rc=.1166 Rb=1.5 Cjc=394.4p Mjc=.3333 Vjc=.75 Fc=.5
++  Cje=1.737n Mje=.33 Vje=.75 Tr=847.7n Tf=24.96n Itf=23.15 Xtf=5 Vtf=60)
+.model KT809a  NPN(Is=130.1f Xti=3 Eg=1.11 Vaf=100 Bf=82.09 Ise=217.3p
++  Ne=1.719 Ikf=5.346 Nk=.4488 Xtb=1.5 Br=2.813 Isc=2.51p Nc=1.493
++  Ikr=1.238 Rc=.1166 Rb=1.5 Cjc=394.4p Mjc=.3333 Vjc=.75 Fc=.5
++  Cje=1.737n Mje=.33 Vje=.75 Tr=847.7n Tf=24.96n Itf=23.15 Xtf=5 Vtf=60)
+*
+**** KT812 Family
+*
+.model KT812a   NPN(Is=74.22f Xti=3 Eg=1.11 Vaf=153 Bf=123.5 Ne=1.754 
++  Ise=172p Ikf=19.27 Xtb=1.5 Br=136.9m Nc=2 Isc=1.142p Ikr=8.53 Rc=.21
++  Rb=.5 Cjc=352.7p Mjc=.33 Vjc=.75 Fc=.5 Cje=800p Mje=.3395 Vje=.75
++  Xcjc=0.5 Tr=647.1n Tf=11.34n Itf=.45 Vtf=80 Xtf=2)
+.model KT812b   NPN(Is=43.44f Xti=3 Eg=1.11 Vaf=153 Bf=154.7 Ise=10.38p 
++  Ne=1.51 Ikf=26.48 Nk=.8517 Xtb=1.5 Br=1 Isc=1.18p Nc=1.576 Ikr=.32
++  Rc=.2787 Rb=.2 Cjc=352.7p Mjc=.33 Vjc=.75 Fc=.5 Cje=800p Mje=.33
++  Vje=.75 Tr=647.1n Tf=11.34n Itf=1.5 Xtf=2 Vtf=80)
+*
+**** KT814 Family
+*
+.model KT814a   PNP(Is=11.45f Xti=3 Eg=1.11 Vaf=62.37 Bf=176.8 Ise=88.24f
++  Ne=1.411 Ikf=.3656 Nk=.6491 Xtb=1.5 Br=1.238 Isc=269.4f Nc=1.51
++  Ikr=1.275 Rc=.1654 Rb=4 Cjc=88.73p Mjc=.3333 Vjc=.75 Fc=.5
++  Cje=71.14p Mje=.33 Vje=.75 Tr=2.046u Tf=26.36n Itf=3 Xtf=5 Vtf=10)
+.model KT814b   PNP(Is=11.45f Xti=3 Eg=1.11 Vaf=72.62 Bf=128.7 Ise=97.57f
++  Ne=1.421 Ikf=.2157 Nk=.4096 Xtb=1.5 Br=1.928 Isc=637.6f Nc=1.41
++  Ikr=.5927 Rc=.2979 Rb=4 Cjc=88.73p Mjc=.3333 Vjc=.75 Fc=.5
++  Cje=71.14p Mje=.3333 Vje=.75 Tr=2.046u Tf=26.36n Itf=3 Xtf=5 Vtf=10)
+.model KT814v   PNP(Is=11.45f Xti=3 Eg=1.11 Vaf=100 Bf=102.8 Ise=97.57f
++  Ne=1.421 Ikf=.2157 Nk=.4096 Xtb=1.5 Br=1.928 Isc=637.6f Nc=1.41
++  Ikr=.5927 Rc=.2979 Rb=4 Cjc=88.73p Mjc=.3333 Vjc=.75 Fc=.5
++  Cje=71.14p Mje=.3333 Vje=.75 Tr=2.046u Tf=26.36n Itf=3 Xtf=5 Vtf=10)
+*
+**** KT815 Family
+*
+.model KT815a   NPN(Is=10.2f Xti=3 Eg=1.11 Vaf=70 Bf=191.7 Ise=349.5f
++  Ne=1.422 Ikf=.4139 Nk=.624 Xtb=1.5 Br=1.683 Isc=706.1f Nc=1.473
++  Ikr=.5592 Rc=.203 Rb=5 Cjc=88.73p Mjc=.3333 Vjc=.75 Fc=.5 Cje=71.14p
++  Mje=.3333 Vje=.75 Tr=2.046u Tf=24.32n Itf=1 Xtf=2 Vtf=10)
+.model KT815b   NPN(Is=10.2f Xti=3 Eg=1.11 Vaf=87 Bf=159.4 Ise=573.7f
++  Ne=1.453 Ikf=.3983 Nk=.5 Xtb=1.5 Br=1.576 Isc=231.6f Nc=1.44
++  Ikr=.3633 Rc=.2936 Rb=5 Cjc=88.73p Mjc=.3333 Vjc=.75 Fc=.5
++  Cje=71.14p Mje=.3333 Vje=.75 Tr=2.046u Tf=24.32n Itf=1 Xtf=2 Vtf=10)
+.model KT815v   NPN(Is=10.2f Xti=3 Eg=1.11 Vaf=87 Bf=115.3 Ise=573.7f
++  Ne=1.453 Ikf=.3983 Nk=.5 Xtb=1.5 Br=1.576 Isc=231.6f Nc=1.44
++  Ikr=.3633 Rc=.2936 Rb=5 Cjc=88.73p Mjc=.3333 Vjc=.75 Fc=.5
++  Cje=71.14p Mje=.3333 Vje=.75 Tr=2.046u Tf=24.32n Itf=1 Xtf=2 Vtf=10)
+*
+**** KT818 Family
+*
+.model KT818a   PNP(Is=150.1f Xti=3 Eg=1.11 Vaf=70 Bf=135.8 Ise=2.436p 
++  Ne=1.37 Ikf=6.563 Nk=.6668 Xtb=1.5 Br=1.6 Isc=2.847p Nc=1.564 Ikr=.24
++  Rc=74m Rb=1 Cjc=1.183n Mjc=.3333 Vjc=.75 Fc=.5 Cje=1.635n Mje=.3333
++  Vje=.75 Tr=2.65u Tf=20.02n Itf=.3063 Xtf=.8299 Vtf=10)
+.model KT818b   PNP(Is=150.1f Xti=3 Eg=1.11 Vaf=80 Bf=179.1 Ise=1.171p
++  Ne=1.321 Ikf=5.846 Nk=.6543 Xtb=1.5 Br=1.6 Isc=2.847p Nc=1.564 Ikr=.24 
++  Rc=74m Rb=1 Cjc=1.183n Mjc=.3333 Vjc=.75 Fc=.5 Cje=1.635n Mje=.3333 
++  Vje=.75 Tr=2.203u Tf=20.02n Itf=.3063 Xtf=.8299 Vtf=10)
+.model KT818v   PNP(Is=150.1f Xti=3 Eg=1.11 Vaf=100 Bf=179.1 Ise=1.171p
++  Ne=1.321 Ikf=5.846 Nk=.6543 Xtb=1.5 Br=1.6 Isc=2.847p Nc=1.564 Ikr=.24 
++  Rc=74m Rb=1 Cjc=1.183n Mjc=.3333 Vjc=.75 Fc=.5 Cje=1.635n Mje=.3333 
++  Vje=.75 Tr=2.203u Tf=20.02n Itf=.3063 Xtf=.8299 Vtf=10)
+*
+**** KT819 Family
+*
+.model KT819a   NPN(Is=114.5f Xti=3 Eg=1.11 Vaf=80 Bf=176.5 Ise=1.231p
++  Ne=1.371 Ikf=3.193 Nk=.5458 Xtb=1.5 Br=1 Isc=1.185p Nc=1.533 Ikr=.4086 
++  Rc=36.34m Rb=2 Cjc=1.183n Mjc=.3333 Vjc=.75 Fc=.5 Cje=1.635n Mje=.3333 
++  Vje=.75 Tr=2.955u Tf=14.69n Itf=1.387 Xtf=.4251 Vtf=10)
+.model KT819b   NPN(Is=114.5f Xti=3 Eg=1.11 Vaf=90 Bf=161 Ise=1.416p 
++  Ne=1.341 Ikf=4.184 Nk=.649 Xtb=1.5 Br=3.8 Isc=1.266p Nc=1.51 Ikr=1.1
++  Rc=60m Rb=2 Cjc=1.183n Mjc=.3333 Vjc=.75 Fc=.5 Cje=1.635n Mje=.3333
++  Vje=.75 Tr=1.381u Tf=14.69n Itf=1.387 Xtf=.4251 Vtf=10)
+.model KT819v   NPN(Is=114.5f Xti=3 Eg=1.11 Vaf=100 Bf=161 Ise=1.416p 
++  Ne=1.341 Ikf=4.184 Nk=.649 Xtb=1.5 Br=3.8 Isc=1.266p Nc=1.51 Ikr=1.1
++  Rc=60m Rb=2 Cjc=1.183n Mjc=.3333 Vjc=.75 Fc=.5 Cje=1.635n Mje=.3333
++  Vje=.75 Tr=1.381u Tf=14.69n Itf=1.387 Xtf=.4251 Vtf=10)
+*
+**** KT830 Family
+*
+.model q2T830a  PNP(Is=40.74f Xti=3 Eg=1.11 Vaf=65 Bf=132.5 Ne=1.782 
++  Ise=3.717p Ikf=.936 Xtb=1.5 Var=40 Br=.626 Nc=2 Isc=3.7p Ikr=.96 
++  Rb=9 Rc=.25 Cjc=131.2p Mjc=.33 Vjc=.75 Fc=.5 Cje=114.7p Mje=.35 
++  Vje=.65 Tr=3.056u Tf=17.31n Itf=.95 Vtf=25 Xtf=2)
+.model q2T830b  PNP(Is=40.74f Xti=3 Eg=1.11 Vaf=75 Bf=132.5 Ne=1.782 
++  Ise=3.717p Ikf=.936 Xtb=1.5 Var=40 Br=.626 Nc=2 Isc=3.7p Ikr=.96 
++  Rb=9 Rc=.25 Cjc=131.2p Mjc=.33 Vjc=.75 Fc=.5 Cje=114.7p Mje=.35 
++  Vje=.65 Tr=3.056u Tf=17.31n Itf=.95 Vtf=25 Xtf=2)
+.model q2T830v  PNP(Is=40.74f Xti=3 Eg=1.11 Vaf=95 Bf=108.8 Ne=1.731 
++  Ise=3.085p Ikf=1.873 Xtb=1.5 Var=50 Br=0.751 Nc=2 Isc=3.1p Ikr=1.8
++  Rb=12 Rc=.35 Cjc=131.2p Mjc=.33 Vjc=.75 Fc=.5 Cje=114.7p Mje=.35 
++  Vje=.65 Tr=3.056u Tf=17.31n Itf=1.8 Vtf=50 Xtf=2)
+*
+**** KT831 Family
+*
+.model q2T831b  NPN(Is=56.47f Xti=3 Eg=1.11 Vaf=83 Bf=236.8 Ne=2.918 
++  Ise=8.105n Ikf=6.154 Xtb=1.5 Var=60 Br=.6713 Nc=2 Isc=2p Ikr=2.04 
++  Rb=8.5 Rc=.27 Cjc=78.34p Mjc=.33 Vjc=.75 Fc=.5 Cje=241.4p Mje=.33 
++  Vje=.65 Tr=2.353u Tf=5.055n Itf=4.09 Vtf=45 Xtf=2)
+.model q2T831v  NPN(Is=56.47f Xti=3 Eg=1.11 Vaf=80 Bf=255.7 Ne=2.918 
++  Ise=8.105n Ikf=6.154 Xtb=1.5 Var=60 Br=.6713 Nc=2 Isc=2p Ikr=2.04 
++  Rb=8.5 Rc=.27 Cjc=55.64p Mjc=.33 Vjc=.75 Fc=.5 Cje=181.5p Mje=.33 
++  Vje=.65 Tr=1.223u Tf=5.055n Itf=4.09 Vtf=45 Xtf=2)
+.model q2T831g  NPN(Is=56.47f Xti=3 Eg=1.11 Vaf=83 Bf=118.4 Ne=2.918 
++  Ise=16.21n Ikf=6.154 Xtb=1.5 Var=60 Br=.6713 Nc=2 Isc=2p Ikr=2.04 
++  Rb=10.1 Rc=.27 Cjc=78.34p Mjc=.33 Vjc=.75 Fc=.5 Cje=241.4p Mje=.33 
++  Vje=.65 Tr=2.353u Tf=5.055n Itf=4.09 Vtf=45 Xtf=2)
+*
+**** 2T838 n-p-n
+*
+.model q2T838a   NPN(Is=74.22f Xti=3 Eg=1.11 Vaf=153 Bf=123.5 Ne=1.754 
++  Ise=172p Ikf=19.27 Xtb=1.5 Br=136.9m Nc=2 Isc=1.142p Ikr=8.53 Rc=.21
++  Rb=3.4 Cjc=352.7p Mjc=.33 Vjc=.75 Fc=.5 Cje=800p Mje=.3395 Vje=.75
++  Xcjc=0.5 Tr=647.1n Tf=11.34n Itf=.45 Vtf=80 Xtf=2)
+*
+**** 2T841 n-p-n
+*
+.model q2T841a   NPN(Is=114.2f Xti=3 Eg=1.11 Vaf=153 Bf=163.5 Ne=1.547
++  Ise=1.72p Ikf=7.27 Xtb=1.5 Br=1.36 Nc=2 Isc=1.142p Ikr=1.53 Rc=.21
++  Rb=1 Cjc=352.7p Mjc=.33 Vjc=.75 Fc=.5 Cje=800p Mje=.3395 Vje=.75
++  Xcjc=0.5 Tr=647.1n Tf=11.34n Itf=45 Vtf=80 Xtf=2)
+*
+**** 2T842a p-n-p
+*
+.model q2T842a  PNP(Is=120.1f Xti=3 Eg=1.11 Vaf=100 Bf=174.1 Ne=1.498
++  Ise=1.681p Ikf=5.206 Nk=.5749 Xtb=1.5 Br=1.302 Isc=3.044p
++  Nc=1.426 Ikr=1.064 Rb=1 Rc=.2374 Cjc=557.4p Mjc=.3779 Vjc=.75 Fc=.5
++  Cje=3.051n Mje=.33 Vje=.75 Tr=825.9n Tf=5.126n Itf=25 Xtf=1.1 Vtf=40)
+*
+**** KT908 Family
+*
+.model q2T908a  NPN(Is=114.5f Xti=3 Eg=1.11 Vaf=100 Bf=87.62 Ise=1.429p
++  Ne=1.286 Ikf=8.713 Nk=.4649 Xtb=1.5 Br=1.423 Isc=2.393p Nc=1.53
++  Ikr=.9543 Rc=56.36m Rb=1 Cjc=974.7p Mjc=.3085 Vjc=.75 Fc=.5
++  Cje=1.737n Mje=.33 Vje=.75 Tr=1.534u Tf=1.984n Itf=18.5 Xtf=3.4 Vtf=50)
+.model q2T908b  NPN(Is=114.5f Xti=3 Eg=1.11 Vaf=100 Bf=93.82 Ise=1.429p
++  Ne=1.286 Ikf=8.713 Nk=.4649 Xtb=1.5 Br=1.423 Isc=2.393p Nc=1.53
++  Ikr=.9543 Rc=56.36m Rb=1 Cjc=974.7p Mjc=.3085 Vjc=.75 Fc=.5
++  Cje=1.737n Mje=.33 Vje=.75 Tr=1.534u Tf=1.984n Itf=18.5 Xtf=3.4 Vtf=50)
+.model KT908a  NPN(Is=114.5f Xti=3 Eg=1.11 Vaf=100 Bf=87.62 Ise=1.429p
++  Ne=1.286 Ikf=8.713 Nk=.4649 Xtb=1.5 Br=1.423 Isc=2.393p Nc=1.53
++  Ikr=.9543 Rc=56.36m Rb=1 Cjc=974.7p Mjc=.3085 Vjc=.75 Fc=.5
++  Cje=1.737n Mje=.33 Vje=.75 Tr=1.534u Tf=1.984n Itf=18.5 Xtf=3.4 Vtf=50)
+.model KT908b   NPN(Is=114.5f Xti=3 Eg=1.11 Vaf=100 Bf=88.91 Ise=803.2f
++  Ne=1.272 Ikf=9.223 Nk=.4226 Xtb=1.5 Br=1.285 Isc=2.344p
++  Nc=1.542 Ikr=1.09 Rc=69.93m Cjc=974.7p Mjc=.3085 Vjc=.75 Fc=.5
++  Cje=1.737n Mje=.33 Vje=.75 Tr=1.534u Tf=1.984n Itf=18.5 Xtf=3.4 Vtf=50)
+*
+**** KT921
+*
+.model q2T921a  NPN(Is=282f Xti=3 Eg=1.11 Vaf=47 Bf=69.37 Ne=1.688 
++  Ise=164.3p Ikf=15.22 Xtb=1.5 Br=.3729 Nc=2 Isc=16.43p Ikr=15.22 
++  Rc=.36 Rb=8 Cjc=103.1p Mjc=.245 Vjc=.75 Fc=.5 Cje=420.7p Mje=.4028 
++  Vje=.75 Tr=838.6n Tf=628.1p Itf=15.33 Vtf=15 Xtf=1.5)
+*
+**** KT922 Family
+*
+.model q2T922a  NPN(Is=134.9f Xti=3 Eg=1.11 Vaf=81.41 Bf=86.36 Ne=1.362
++  Ise=1.189p Ikf=1.122 Nk=.5086 Xtb=1.5 Br=1 Isc=6.713n Nc=1.805
++  Ikr=1.087 Rb=3 Rc=1.308 Cjc=26.72p Mjc=.33 Vjc=.75 Fc=.5
++  Cje=71.52p Mje=.33 Vje=.75 Tr=272.8n Tf=185.4p Itf=1 Xtf=1.3 Vtf=40)
+.model q2T922b  NPN(Is=292.3f Xti=3 Eg=1.11 Vaf=81.41 Bf=84.63 Ne=1.406
++  Ise=4.199p Ikf=2.359 Nk=.5229 Xtb=1.5 Br=1 Isc=17.13p Nc=1.803
++  Ikr=1.68 Rb=2 Rc=.9759 Cjc=48.58p Mjc=.33 Vjc=.75 Fc=.5 Cje=153.3p
++  Mje=.33 Vje=.75 Tr=141.3n Tf=211.6p Itf=8 Xtf=.45 Vtf=40)
+.model q2T922v  NPN(Is=430.3f Xti=3 Eg=1.11 Vaf=81.41 Bf=84.02 Ne=1.397
++  Ise=5.318p Ikf=3.706 Nk=.5578 Xtb=1.5 Br=1.734 Isc=7.445p Nc=1.577 
++  Ikr=.166 Rb=3 Rc=.5487 Cjc=121.5p Mjc=.33 Vjc=.75 Fc=.5 Cje=408.7p 
++  Mje=.33 Vje=.75 Tr=110.7n Tf=234.7p Itf=30 Xtf=.7 Vtf=40)
+*
+**** KT928 Family
+*
+.model q2T928a  NPN(Is=16.09f Xti=3 Eg=1.11 Vaf=81.41 Bf=127.5 Ise=85.22f
++  Ne=1.284 Ikf=.2716 Nk=.4931 Xtb=1.5 Br=1 Isc=57.65p Nc=2.096
++  Ikr=1.637 Rb=11 Rc=1.538 Cjc=14.57p Mjc=.33 Vjc=.75 Fc=.5 Cje=78.2p
++  Mje=.33 Vje=.75 Tr=402n Tf=373.8p Itf=1 Xtf=2 Vtf=40)
+.model q2T928b  NPN(Is=16.09f Xti=3 Eg=1.11 Vaf=81.41 Bf=247.7 Ise=143.2f
++  Ne=1.385 Ikf=.3491 Nk=.5807 Xtb=1.5 Br=1.2 Isc=57.65p Nc=2.096
++  Ikr=1.637 Rb=12 Rc=1.654 Cjc=14.57p Mjc=.33 Vjc=.75 Fc=.5 Cje=78.2p
++  Mje=.33 Vje=.75 Tr=279.5n Tf=373.8p Itf=1 Xtf=2 Vtf=40)
+*
+**** KT933 Family
+*
+.model q2T933a  PNP(Is=18.19f Xti=3 Eg=1.11 Vaf=78 Bf=122.8 Ise=86.44f
++  Ne=1.284 Ikf=.2819 Nk=.4822 Xtb=1.5 Br=1 Isc=57.65p Nc=2.096
++  Ikr=1.637 Rb=11 Rc=1.538 Cjc=39.2p Mjc=.4435 Vjc=.75 Fc=.5 Cje=23.31p
++  Mje=.201 Vje=.75 Tr=202.1n Tf=313.9p Itf=2.51 Xtf=1.52 Vtf=40)
+*
+**** KT945 Family
+*
+.model q2T945a  NPN(Is=300.3f Xti=3 Eg=1.11 Vaf=95.7 Bf=193.9 Ise=2.284p
++  Ne=1.377 Ikf=21.59 Nk=.7771 Xtb=1.5 Br=1.216 Isc=8.999p Nc=1.514 
++  Ikr=.7536 Rc=.1198 Cjc=525.9p Mjc=.3229 Vjc=.75 Fc=.5 Cje=3.794n 
++  Mje=.33 Vje=.75 Tr=1.695u Tf=2.465n Itf=15 Xtf=2 Vtf=40)
+.model q2T945b  NPN(Is=350f Xti=3 Eg=1.11 Vaf=95.7 Bf=193.9 Ise=2.284p
++  Ne=1.377 Ikf=21.59 Nk=.7771 Xtb=1.5 Br=1.216 Isc=8.999p Nc=1.514 
++  Ikr=.7536 Rc=.1198 Cjc=525.9p Mjc=.3229 Vjc=.75 Fc=.5 Cje=3.794n 
++  Mje=.33 Vje=.75 Tr=1.695u Tf=2.465n Itf=15 Xtf=2 Vtf=40)
+*
+*
+.model KT968a   NPN(Is=89.93f Xti=3 Eg=1.11 Vaf=86 Bf=184.1 Ise=573.9f 
++  Ne=1.436 Ikf=44.6m Nk=.4867 Xtb=1.5 Br=1 Isc=25.95p Nc=1.425 Ikr=2.599
++  Rb=27 Rc=.701 Cjc=13.31p Mjc=.5595 Vjc=.75 Fc=.5 Cje=34.2p Mje=.33
++  Vje=.75 Tr=1.045u Tf=1.325n Itf=3 Xtf=2 Vtf=20)
+*
+*
+****  Darlington Transistors 
+*
+.Subckt q2T825a   1  2  3
+*    Terminals:   C  B  E    *  Darlington   PNP  
+Q1 1 2 4 q825a 0.1
+Q2 1 4 3 q825a
+R1 2 4  8K
+R2 4 3  150
+D1 1 3  d825a
+.Model q825a    PNP(Is=632.4f Xti=3 Eg=1.11 Vaf=100 Bf=112.1 Ise=962.8f
++  Ne=1.373 Ikf=2.187 Nk=.6196 Xtb=2.1 Br=66.4 Isc=974.4f Nc=1.207
++  Ikr=125.8 Rc=.2066 Cjc=508.9p Mjc=.4847 Vjc=.75 Fc=.5  Cje=379.8p 
++  Mje=.4937 Vje=.75 Tr=89.17n Tf=17.41n Itf=5.921 Xtf=1.062 Vtf=10 Rb=.1)
+.Model d825a  D(Is=1.2p N=1 RS=.1 BV=100 IBV=.001 CJO=260p TT=500n)
+.Ends
+*
+.Subckt q2T827a   1  2  3
+*    Terminals:   C  B  E    *  Darlington   NPN
+Q1 1 2 4 q827a 0.1
+Q2 1 4 3 q827a
+R1 2 4  8K
+R2 4 3  150
+D1 3 1  d827a
+.Model q827a    NPN(Is=1.129p Xti=3 Eg=1.11 Vaf=100 Bf=161 Ise=31.17p 
++  Ne=1.557 Ikf=1.948 Nk=.648 Xtb=2 Br=1 Isc=23.5p Nc=1.489 Ikr=31.34m
++  Rc=.1682 Cjc=251.5p Mjc=.5045 Vjc=.75 Fc=.5 Cje=286.3p Mje=.4961
++  Vje=.75 Tr=810n Tf=23.64n Itf=10.92 Xtf=.3795 Vtf=10	Rb=.1)
+.Model d827a  D(Is=1.2p N=1 RS=.1 BV=100 IBV=.001 CJO=260p TT=500n)
+.Ends
+*
+*
+*
+* End of library file

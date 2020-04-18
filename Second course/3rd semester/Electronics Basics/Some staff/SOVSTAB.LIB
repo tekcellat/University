@@ -1,0 +1,109 @@
+*** Zener Diodes ***
+
+* The parameters Ibv, Ibvl, Nbv, and Nbvl, were characterized by matching the
+* manufacturer's Zener impedance at three current levels.  The parameter Tbv1
+* is calculated directly.  The remaining parameters were characterize using
+* the Parts option.
+*
+.model D2C133A  D(Is=11.47f Rs=0.2655 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=3.371 Ibv=47.97m Nbv=3)
+*         Ibvl=48.16m  
+*         Tbv1=-1.1m)
+*
+.model D2C139A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=3.928 Ibv=43.84m 
+*         Nbv=60 Ibvl=3m Nbvl=180 
++         Tbv1=-1.0m)
+*
+.model D2C147A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=4.73 Ibv=47.03m 
+*         Nbv=56 Ibvl=3m Nbvl=160 
++         Tbv1=-900u)
+*
+.model D2C156A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=5.635 Ibv=57.48m 
+*         Nbv=46 Ibvl=3m Nbvl=160 
++         Tbv1=500u)
+*
+.model D2C168A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=6.848 Ibv=95.79m 
+*         Nbv=28 Ibvl=3m Nbvl=120 
++         Tbv1=600u)
+*
+.model D2C433A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=3.3 Ibv=60m 
+*         Nbv=14 Ibvl=3m Nbvl=180 
++         Tbv1=-1m)
+*
+.model D2C439A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=3.9 Ibv=51m 
+*         Nbv=12 Ibvl=3m Nbvl=180 
++         Tbv1=-1m)
+*
+.model D2C447A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=4.7 Ibv=43m 
+*         Nbv=10 Ibvl=3m Nbvl=180 
++         Tbv1=-800u)
+*
+.model D2C456A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=5.6 Ibv=36m 
+*         Nbv=7 Ibvl=3m Nbvl=145 
++         Tbv1=500u)
+*
+.model D2C468A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=6.8 Ibv=29m 
+*         Nbv=5 Ibvl=3m Nbvl=70 
++         Tbv1=650u)
+*
+.model D2C482A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=8.2 Ibv=5m 
+*         Nbv=25 Ibvl=1m Nbvl=200 
++         Tbv1=800u)
+*
+.model D2C510A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=10 Ibv=5m 
+*         Nbv=25 Ibvl=1m Nbvl=200 
++         Tbv1=1m)
+*
+.model D2C512A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=12 Ibv=5m 
+*         Nbv=25 Ibvl=1m Nbvl=200 
++         Tbv1=1m)
+*
+.model D2C515A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=15 Ibv=5m 
+*         Nbv=25 Ibvl=1m Nbvl=200 
++         Tbv1=1m)
+*
+.model D2C518A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=18 Ibv=5m 
+*         Nbv=25 Ibvl=1m Nbvl=200 
++         Tbv1=1m)
+*
+.model D2C522A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=22 Ibv=5m 
+*         Nbv=25 Ibvl=1m Nbvl=200 
++         Tbv1=1m)
+*
+.model D2C524A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=24 Ibv=5m 
+*         Nbv=30 Ibvl=1m Nbvl=200 
++         Tbv1=1m)
+*
+.model D2C527A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=27 Ibv=5m 
+*         Nbv=40 Ibvl=1m Nbvl=200 
++         Tbv1=1m)
+*
+.model D2C530A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=30 Ibv=5m 
+*         Nbv=45 Ibvl=1m Nbvl=200 
++         Tbv1=1m)
+*
+.model D2C536A  D(Is=31.47f Rs=9.494 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=220p M=.5959
++         Vj=.75 Fc=.5 Isr=2.035n Nr=2 Bv=36 Ibv=5m 
+*         Nbv=50 Ibvl=1m Nbvl=200 
++         Tbv1=1m)
+*
+*** end of library file
+

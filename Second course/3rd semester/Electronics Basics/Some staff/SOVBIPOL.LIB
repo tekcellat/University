@@ -1,0 +1,208 @@
+*****************************************************************************
+*               PARAMETRY SOVETSKICH BIPOLJARNYCH TRANSISTOROV                     *
+*                                TNOM.LIB                                   *
+*                                   KVB                                            *
+*****************************************************************************
+*
+*SEMEYSTVO KT315:
+*
+.MODEL KT315A                NPN(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=90
++                            IKF=.1A VAF=45 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=0.3NS TR=170NS KF=4E-15 AF=1)
+*
+.MODEL KT315B                NPN(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=350
++                            IKF=.1A VAF=40 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=0.5NS TR=170NS KF=4E-15 AF=1)
+*
+.MODEL KT315V                NPN(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=90
++                            IKF=.1A VAF=60 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=0.5NS TR=170NS KF=4E-15 AF=1)
+*
+.MODEL KT315G                NPN(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=350
++                            IKF=.1A VAF=55 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=0.5NS TR=170NS KF=4E-15 AF=1)
+*
+.MODEL KT315D                NPN(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=90
++                            IKF=.1A VAF=60 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=1NS TR=170NS KF=4E-15 AF=1)
+*
+.MODEL KT315E                NPN(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=350
++                            IKF=.1A VAF=55 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=1NS TR=170NS KF=4E-15 AF=1)
+*
+.MODEL KT315GE                NPN(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=250
++                            IKF=.05A VAF=35 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=1NS TR=170NS KF=4E-15 AF=1)
+*
+.MODEL KT315I                NPN(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=50
++                            IKF=.05A VAF=80 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=0.8NS TR=170NS KF=4E-15 AF=1)
+*
+.MODEL KT315L                NPN(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=50
++                            IKF=.05A VAF=80 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=0.8NS TR=170NS KF=4E-15 AF=1)
+**
+*SEMEYSTVO KT361:
+*
+.MODEL KT361A                PNP(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=90
++                            IKF=.1A VAF=45 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=0.5NS TR=170NS KF=4E-15 AF=1)
+*
+.MODEL KT361B                PNP(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=350
++                            IKF=.1A VAF=40 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=0.5NS TR=170NS KF=4E-15 AF=1)
+*
+.MODEL KT361V                PNP(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=160
++                            IKF=.05A VAF=60 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=0.8NS TR=170NS KF=4E-15 AF=1)
+*
+.MODEL KT361G                PNP(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=350
++                            IKF=.1A VAF=55 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=0.5NS TR=170NS KF=4E-15 AF=1)
+*
+*
+.MODEL KT361D                PNP(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=90
++                            IKF=.1A VAF=60 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=0.25NS TR=170NS KF=4E-15 AF=1)
+*
+.MODEL KT361E                PNP(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=350
++                            IKF=.05A VAF=55 CJC=7PF CJE=7PF RB=3 RE=.5 RC=.2
++                            TF=0.8NS TR=170NS KF=4E-15 AF=1)
+*
+*SEMEYSTVO KT375:
+*
+.MODEL KT375A                NPN(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=100
++                           IKF=.1A  VAF=80 CJC=5PF CJE=15PF RB=5 RE=.5 RC=1
++                            TF=0.3NS TR=200NS KF=1E-15 AF=1.0)
+*
+.MODEL KT375B                NPN(IS=10E-15 ISE=100NA NE=4 ISC=100NA NC=4 BF=280
++                           IKF=.1A  VAF=80 CJC=5PF CJE=15PF RB=5 RE=.5 RC=1
++                            TF=0.3NS TR=200NS KF=1E-15 AF=1.0)
+*
+*
+*
+*SEMEYSTVO KT3102:
+*
+.MODEL KT3102A                NPN(IS=10E-15 VAF=70V BF=250 IKF=.1A ISE=5UA NE=4
++                            VAR=8V ISC=25NA NC=4 RB=5 RE=.5 CJE=8PF CJC=6PF
++                            TR=100NS TF=.6NS)
+*
+.MODEL KT3102B                NPN(IS=10E-15 VAF=70V BF=500 IKF=.1A ISE=5UA NE=4
++                            VAR=8V ISC=25NA NC=4 RB=5 RE=.5 CJE=8PF CJC=6PF
++                            TR=100NS TF=.6NS)
+*
+.MODEL KT3102V                NPN(IS=10E-15 VAF=50V BF=500 IKF=.1A ISE=5UA NE=4
++                            VAR=6V ISC=10NA NC=4 RB=5 RE=.5 CJE=8PF CJC=6PF
++                            TR=100NS TF=.6NS)
+*
+.MODEL KT3102G                NPN(IS=10E-15 VAF=40V BF=1000 IKF=.1A ISE=5UA NE=4
++                            VAR=4V ISC=10NA NC=4 RB=5 RE=.5 CJE=8PF CJC=6PF
++                            TR=100NS TF=.6NS)
+*
+.MODEL KT3102E                NPN(IS=10E-15 VAF=70V BF=1000 IKF=.1A ISE=5UA NE=4
++                            VAR=8V ISC=10NA NC=4 RB=5 RE=.5 CJE=8PF CJC=6PF
++                            TR=100NS TF=.6NS)
+*
+*SEMEYSTVO KT3117A
+*
+.MODEL KT3117A                NPN(IS=10E-15 ISE=1UA NE=4 ISC=1UA NC=4 BF=200
++                            IKF=.4A VAF=70 CJC=10PF CJE=30PF RB=5 RE=.5
++                            TF=0.6NS TR=200NS)
+*
+*
+*
+*SEMEYSTVO KT3107:
+*
+.MODEL KT3107A                PNP(IS=10E-15 VAF=70 VAR=8V BF=140 IKF=.1A NC=4 NE=4
++                            ISE=50NA ISC=50NA RB=5 RE=.5 CJC=10PF CJE=14PF
++                            TR=100NS TF=.6NS )
+*
+.MODEL KT3107B                PNP(IS=10E-15 VAF=70 VAR=8V BF=220 IKF=.1A NC=4 NE=4
++                            ISE=50NA ISC=50NA RB=5 RE=.5 CJC=10PF CJE=14PF
++                            TR=100NS TF=.6NS )
+*
+.MODEL KT3107V                PNP(IS=10E-15 VAF=50 VAR=6V BF=140 IKF=.1A NC=4 NE=4
++                            ISE=50NA ISC=50NA RB=5 RE=.5 CJC=10PF CJE=14PF
++                            TR=100NS TF=.6NS )
+*
+.MODEL KT3107G                PNP(IS=10E-15 VAF=50 VAR=6V BF=220 IKF=.1A NC=4 NE=4
++                            ISE=50NA ISC=50NA RB=5 RE=.5 CJC=10PF CJE=14PF
++                            TR=100NS TF=.6NS )
+*
+.MODEL KT3107D                PNP(IS=10E-15 VAF=50 VAR=6V BF=460 IKF=.1A NC=4 NE=4
++                            ISE=50NA ISC=50NA RB=5 RE=.5 CJC=10PF CJE=14PF
++                            TR=100NS TF=.6NS )
+*
+.MODEL KT3107E                PNP(IS=10E-15 VAF=45 VAR=3.5 BF=220 IKF=.1A NC=4 NE=4
++                            ISE=50NA ISC=50NA RB=5 RE=.5 CJC=10PF CJE=14PF
++                            TR=100NS TF=.6NS )
+*
+.MODEL KT3107GE                PNP(IS=10E-15 VAF=45 VAR=3.5V BF=460 IKF=.1A NC=4 NE=4
++                            ISE=50NA ISC=50NA RB=5 RE=.5 CJC=10PF CJE=14PF
++                            TR=100NS TF=.6NS )
+*
+.MODEL KT3107I                PNP(IS=10E-15 VAF=70 VAR=8V BF=460 IKF=.1A NC=4 NE=4
++                            ISE=50NA ISC=50NA RB=5 RE=.5 CJC=10PF CJE=14PF
++                            TR=100NS TF=.6NS )
+*
+.MODEL KT3107K                PNP(IS=10E-15 VAF=50 VAR=6V BF=800 IKF=.1A NC=4 NE=4
++                            ISE=50NA ISC=50NA RB=5 RE=.5 CJC=10PF CJE=14PF
++                            TR=100NS TF=.6NS )
+*
+.MODEL KT3107L                PNP(IS=10E-15 VAF=45 VAR=3.5V BF=800 IKF=.1A NC=4 NE=4
++                            ISE=50NA ISC=50NA RB=5 RE=.5 CJC=10PF CJE=14PF
++                            TR=100NS TF=.6NS )
+*
+*
+*SEMEYSTVO KT608:
+*
+.MODEL KT608A                NPN(IS=1E-12 VAF=60 VAR=8V BF=80 IKF=.4A NC=4 NE=4
++                            RB=3 RE=.5 ISE=10UA ISC=10UA CJC=12PF CJE=30PF
++                            TR=50NS TF=.6NS)
+*
+.MODEL KT608B                NPN(IS=1E-12 VAF=60 VAR=8V BF=160 IKF=.4A NC=4 NE=4
++                            RB=3 RE=.5 ISE=10UA ISC=10UA CJC=12PF CJE=30PF
++                            TR=50NS TF=.6NS)
+*
+*SEMEYSTVO KT630:
+*
+.MODEL KT630A                NPN(IS=1E-12 ISE=1NA NE=4 ISC=1NA NC=4 BF=120
++                            IKF=1A VAF=130 CJC=15PF CJE=65PF
++                            RB=2.5 RE=0.5 TF=0.7NS TR=70NS KF=1E-15)
+*
+.MODEL KT630B                NPN(IS=1E-12 ISE=1NA NE=4 ISC=1NA NC=4 BF=240
++                            IKF=1A VAF=130 CJC=15PF CJE=65PF
++                            RB=2.5 RE=0.5 TF=0.7NS TR=70NS KF=1E-15)
+*
+.MODEL KT630V                NPN(IS=1E-12 ISE=1NA NE=4 ISC=1NA NC=4 BF=120
++                            IKF=1A VAF=160 CJC=15PF CJE=65PF
++                            RB=2.5 RE=0.5 TF=0.7NS TR=70NS KF=1E-15)
+*
+.MODEL KT630G                NPN(IS=1E-12 ISE=1NA NE=4 ISC=1NA NC=4 BF=120
++                            IKF=1A VAF=110 CJC=15PF CJE=65PF
++                            RB=2.5 RE=0.5 TF=0.7NS TR=70NS KF=1E-15)
+*
+.MODEL KT630D                NPN(IS=1E-12 ISE=1NA NE=4 ISC=1NA NC=4 BF=240
++                            IKF=1A VAF=70 CJC=15PF CJE=65PF
++                            RB=2.5 RE=0.5 TF=0.7NS TR=70NS KF=1E-15)
+*
+.MODEL KT630E                NPN(IS=1E-12 ISE=1NA NE=4 ISC=1NA NC=4 BF=480
++                            IKF=1A VAF=70 CJC=15PF CJE=65PF
++                            RB=2.5 RE=0.5 TF=0.7NS TR=70NS KF=1E-15)
+*
+*SEMEYSTVO KT819:
+*
+.MODEL KT819A                NPN(IS=1E-10 ISE=100UA NE=4 ISC=100UA NC=4 BF=15
++                            IKF=10A VAF=50 CJC=360PF CJE=500PF
++                            RB=.15 RE=.05 TF=30NS TR=2US)
+*
+.MODEL KT819B                NPN(IS=1E-10 ISE=100UA NE=4 ISC=100UA NC=4 BF=20
++                            IKF=10A VAF=80 CJC=360PF CJE=500PF
++                            RB=.15 RE=.05 TF=30NS TR=2US)
+*
+.MODEL KT819V                NPN(IS=1E-10 ISE=100UA NE=4 ISC=100UA NC=4 BF=15
++                            IKF=10A VAF=100 CJC=360PF CJE=500PF
++                            RB=.15 RE=.05 TF=30NS TR=2US)
+*
+*
+
