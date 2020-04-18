@@ -1,0 +1,14 @@
+digraph tree {
+Please -> I;
+Please -> just; 
+just -> basically;
+just -> need; 
+basically -> correctly.; 
+correctly. -> fmkkwn; 
+need -> to; 
+to -> pass;
+to -> work; 
+pass -> these; 
+these -> programs;
+these -> they; 
+}

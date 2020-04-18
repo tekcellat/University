@@ -1,0 +1,14 @@
+digraph balanced_tree {
+pass -> correctly.;
+pass -> these; 
+correctly. -> Please;
+correctly. -> just; 
+Please -> I;
+Please -> basically; 
+just -> fmkkwn;
+just -> need; 
+these -> programs;
+these -> to; 
+to -> they;
+to -> work; 
+}
