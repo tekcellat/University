@@ -1,0 +1,17 @@
+Input: 
+1
+
+Output:
+Entrance 1, floor 1
+
+Input:
+72
+
+Output:
+Entrance 2, floor 9
+
+Input:
+153
+
+Output: 
+Entrance 5, floor 3

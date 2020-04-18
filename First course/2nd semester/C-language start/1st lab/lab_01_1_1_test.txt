@@ -1,0 +1,26 @@
+Input: 
+1
+2
+0.785
+
+Output:
+S: 0.75
+
+Input:
+5
+3
+0.785
+
+Output:
+S: 4
+
+Input:
+1
+5
+0.523
+
+Output: 
+3.45
+
+
+
