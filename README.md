@@ -1,2 +1,2 @@
 # University
-BMSTU ICS7 2017-2021
+🎓 BMSTU ICS7 2017-2021
