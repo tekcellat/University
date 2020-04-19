@@ -1,0 +1,10 @@
+D:\Education\BMSTU\5th Semester\Database\_LAB\RK3\_RK3\Create aggregate\Task1_Aggregate\Task1_Aggregate\bin\Debug\Task1_Aggregate.dacpac
+D:\Education\BMSTU\5th Semester\Database\_LAB\RK3\_RK3\Create aggregate\Task1_Aggregate\Task1_Aggregate\bin\Debug\Task1_Aggregate.dll
+D:\Education\BMSTU\5th Semester\Database\_LAB\RK3\_RK3\Create aggregate\Task1_Aggregate\Task1_Aggregate\bin\Debug\Task1_Aggregate.pdb
+D:\Education\BMSTU\5th Semester\Database\_LAB\RK3\_RK3\Create aggregate\Task1_Aggregate\Task1_Aggregate\obj\Debug\Task1_Aggregate.sqlprojAssemblyReference.cache
+D:\Education\BMSTU\5th Semester\Database\_LAB\RK3\_RK3\Create aggregate\Task1_Aggregate\Task1_Aggregate\obj\Debug\Task1_Aggregate.dll
+D:\Education\BMSTU\5th Semester\Database\_LAB\RK3\_RK3\Create aggregate\Task1_Aggregate\Task1_Aggregate\obj\Debug\Task1_Aggregate.pdb
+D:\Education\BMSTU\5th Semester\Database\_LAB\RK3\_RK3\Create aggregate\Task1_Aggregate\Task1_Aggregate\obj\Debug\Model.xml
+D:\Education\BMSTU\5th Semester\Database\_LAB\RK3\_RK3\Create aggregate\Task1_Aggregate\Task1_Aggregate\obj\Debug\refactor.xml
+D:\Education\BMSTU\5th Semester\Database\_LAB\RK3\_RK3\Create aggregate\Task1_Aggregate\Task1_Aggregate\obj\Debug\postdeploy.sql
+D:\Education\BMSTU\5th Semester\Database\_LAB\RK3\_RK3\Create aggregate\Task1_Aggregate\Task1_Aggregate\obj\Debug\predeploy.sql
