@@ -1,30 +1,54 @@
-predicates
-   student(symbol, symbol, symbol, symbol, real, symbol).
-   group(symbol, symbol).
-   district(symbol, symbol).
-   grantL(symbol).
-clauses
-   student(ivanova, sophia, iu767, zelenograd, 4.5, no).
-   student(krotova, alexandra, iu767, izmaylovo, 4.75, no).
-   student(vodova, kristina, iu767, izmaylovo, 3.75, yes).
-   student(yegova, natalya, iu767, otradnoye, 4, no).
-   student(kruqlova, anna, iu767, otradnoye, 3.0, no).
-   student(ivanov, ivan, iu767, balashiha, 3.25, no).
-   student(kruqlov, georgiy, iu767, izmaylovo, 5.0, no).
-   student(vodov, sanya, iu767, otradnoye, 3.25, yes).
+domains
+    NAME=symbol
+    NUM=string
+    AREA=integer
+    CITY=string
+    STREET=string
+    HOUSE=integer
 
-   group(Sur, Group) :-
-      student(Sur, _, Group, _, _, _).
-   district(Surname, District) :-
-      student(Surname, _, _, District, _, _).
-   grantL(Surname) :-
-      student(Surname, _, _, _, Mean, _),
-       Mean>=4.
-   grantL(Surname) :-
-      student(Surname, _, _, _, _, Info),
-      Info=yes.
+predicates
+    likes(symbol,symbol)
+    abonent(NAME,NUM)
+    abonname(NAME,NUM)
+    abonnum(NAME,NUM)
+    house(NAME,AREA,CITY,STREET,HOUSE)
+    housesAddr(NAME,CITY,STREET,HOUSE)
+    housesAREA(NAME,AREA)
+    mult(NAME,NUM,CITY)
+clauses
+    likes(ellen,tennis).
+    likes(john,football).
+    likes(tom,baseball).
+    likes(eric,swimming).
+    likes(mark,tennis).
+    likes(bill,Activity):-likes (tom, Activity).
+    abonent(alex,"1111111").
+    abonent(alex,"1112121").
+    abonent(ivan,"2222222").
+    abonent(petr,"3333333").
+    abonent(semen,"444444").
+    abonent(evgen,"555555").
+    abonent(dima,"6666666").
+    abonent(semen,"777777").
+    abonent(oleg,"888888").
+    abonent(roman,"9999999").
+
+    house(alex,2500,"Moscow","Baker",140).
+    house(alex,560,"London","Baker",221).
+    house(alex,70,"NY","Baker",14).
+    house(ivan,2500,"Moscow","Lyubanka",10).
+    house(semen,56,"London","Tsentranly",14).
+    house(dima,700,"NY","Tsemntr",221).
+
+    abonname(NAME,NUM):-abonent(NAME,NUM).
+    abonnum(NAME,NUM):-abonent(NAME,NUM).
+    housesAddr(NAME,CITY,STREET,HOUSE):-house(NAME,_,CITY,STREET,HOUSE).
+    housesAREA(NAME,AREA):-house(NAME,AREA,_,_,_).
+    mult(NAME,NUM,CITY):-house(NAME,_,CITY,_,_),abonent(NAME,NUM).
+
 goal
-/* --- part1 --- */
-% group (Sur, iu767).
-% district (Sur, izmaylovo).
-% grantL(Sur).
+    abonname(alex,NUM).
+    %housesAddr(alex,CITY,STREET,HOUSE).
+    %housesAREA(alex,AREA).
+    %mult(alex,NUM,ADDRESS).
+    %house(alex,_,ADDRESS),abonent(alex,NUM)
