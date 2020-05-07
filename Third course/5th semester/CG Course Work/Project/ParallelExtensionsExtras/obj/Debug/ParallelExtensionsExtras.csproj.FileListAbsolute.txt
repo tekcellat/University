@@ -1,0 +1,15 @@
+C:\Users\Ahmed\Downloads\ParallelExtensionsExtras\bin\Debug\ParallelExtensionsExtras.dll
+C:\Users\Ahmed\Downloads\ParallelExtensionsExtras\bin\Debug\ParallelExtensionsExtras.pdb
+C:\Users\Ahmed\Downloads\ParallelExtensionsExtras\obj\Debug\ParallelExtensionsExtras.csprojResolveAssemblyReference.cache
+C:\Users\Ahmed\Downloads\ParallelExtensionsExtras\obj\Debug\ParallelExtensionsExtras.dll
+C:\Users\Ahmed\Downloads\ParallelExtensionsExtras\obj\Debug\ParallelExtensionsExtras.pdb
+C:\Users\pbhac\Desktop\Курсач Алгоритмы_удаления_невидимых_линий_поверхностей\ParallelExtensionsExtras\bin\Debug\ParallelExtensionsExtras.dll
+C:\Users\pbhac\Desktop\Курсач Алгоритмы_удаления_невидимых_линий_поверхностей\ParallelExtensionsExtras\bin\Debug\ParallelExtensionsExtras.pdb
+C:\Users\pbhac\Desktop\Курсач Алгоритмы_удаления_невидимых_линий_поверхностей\ParallelExtensionsExtras\obj\Debug\ParallelExtensionsExtras.dll
+C:\Users\pbhac\Desktop\Курсач Алгоритмы_удаления_невидимых_линий_поверхностей\ParallelExtensionsExtras\obj\Debug\ParallelExtensionsExtras.pdb
+C:\Users\pbhac\Desktop\Курсач - Трассировка паралл\ParallelExtensionsExtras\bin\Debug\ParallelExtensionsExtras.dll
+C:\Users\pbhac\Desktop\Курсач - Трассировка паралл\ParallelExtensionsExtras\bin\Debug\ParallelExtensionsExtras.pdb
+C:\Users\pbhac\Desktop\Курсач - Трассировка паралл\ParallelExtensionsExtras\obj\Debug\ParallelExtensionsExtras.dll
+C:\Users\pbhac\Desktop\Курсач - Трассировка паралл\ParallelExtensionsExtras\obj\Debug\ParallelExtensionsExtras.pdb
+C:\Users\pbhac\Desktop\Курсач - Трассировка паралл\ParallelExtensionsExtras\obj\Debug\ParallelExtensionsExtras.csprojAssemblyReference.cache
+C:\Users\pbhac\Desktop\Курсач - Трассировка паралл\ParallelExtensionsExtras\obj\Debug\ParallelExtensionsExtras.csproj.CoreCompileInputs.cache

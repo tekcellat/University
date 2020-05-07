@@ -1,0 +1,5 @@
+C:\Users\pbhac\Desktop\Курсач Алгоритмы_удаления_невидимых_линий_поверхностей\ParallelExtensionsExtras\bin\Release\ParallelExtensionsExtras.dll
+C:\Users\pbhac\Desktop\Курсач Алгоритмы_удаления_невидимых_линий_поверхностей\ParallelExtensionsExtras\bin\Release\ParallelExtensionsExtras.pdb
+C:\Users\pbhac\Desktop\Курсач Алгоритмы_удаления_невидимых_линий_поверхностей\ParallelExtensionsExtras\obj\Release\ParallelExtensionsExtras.csprojResolveAssemblyReference.cache
+C:\Users\pbhac\Desktop\Курсач Алгоритмы_удаления_невидимых_линий_поверхностей\ParallelExtensionsExtras\obj\Release\ParallelExtensionsExtras.dll
+C:\Users\pbhac\Desktop\Курсач Алгоритмы_удаления_невидимых_линий_поверхностей\ParallelExtensionsExtras\obj\Release\ParallelExtensionsExtras.pdb
