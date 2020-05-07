@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: c5998bbe8bae5cd41a7f932e85254aa1
+labels:
+- light
+- 2dLight
+- martin
+- ysa
+- 2d
+- 2dsystem
+- system
+- 2dshadow
+- shadow
+- shadows
+- realtime
+- dynamic
+- free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
