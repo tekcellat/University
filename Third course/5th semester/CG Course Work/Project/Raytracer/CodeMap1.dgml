@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="ForceDirected" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 @6 Member=(Name=TestRay OverloadingParameters=[(@1 @2 Type=Ray),@7]))" Category="CodeSchema_Method" Bounds="-29.275881424598,-157.215080392214,76.7828305066667,25.94943168" CodeSchemaProperty_IsPrivate="True" CommonLabel="TestRay" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Метод" Label="TestRay" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Ahmed/Downloads/СДАТЬ/Raytracer_CSharp/Raytracer.cs StartLineNumber=123 StartCharacterOffset=8 EndLineNumber=123 EndCharacterOffset=8)" />
+    <Node Id="(@1 @2 Type=MainForm Member=(Name=btnStartStop_Click OverloadingParameters=[(@3 @4 Type=Object),(@3 @4 Type=EventArgs)]))" Category="CodeSchema_Method" Bounds="151.022116088867,-45.3160170322139,132.95,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="btnStartStop_Click" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Метод" Label="btnStartStop_Click" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Ahmed/Downloads/СДАТЬ/Raytracer_CSharp/MainForm.cs StartLineNumber=33 StartCharacterOffset=8 EndLineNumber=33 EndCharacterOffset=8)" UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="37.6840070597331,122.509601154444,83.4766666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="TraceRay" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Метод" Label="TraceRay" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Ahmed/Downloads/СДАТЬ/Raytracer_CSharp/Raytracer.cs StartLineNumber=131 StartCharacterOffset=8 EndLineNumber=131 EndCharacterOffset=8)" UseManualLocation="True" />
+    <Node Id="@11" Category="CodeSchema_Method" Bounds="114.523829158785,179.766104561836,111.863333333333,25.96" CodeSchemaProperty_IsInternal="True" CommonLabel="RenderParallel" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Метод" Label="RenderParallel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Ahmed/Downloads/СДАТЬ/Raytracer_CSharp/Raytracer.cs StartLineNumber=39 StartCharacterOffset=8 EndLineNumber=39 EndCharacterOffset=8)" UseManualLocation="True" />
+    <Node Id="@12" Category="CodeSchema_Method" Bounds="60.6086305557623,235.726204561836,199.286666666667,25.96" CodeSchemaProperty_IsInternal="True" CommonLabel="RenderParallelShowingThreads" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Метод" Label="RenderParallelShowingThreads" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Ahmed/Downloads/СДАТЬ/Raytracer_CSharp/Raytracer.cs StartLineNumber=53 StartCharacterOffset=8 EndLineNumber=53 EndCharacterOffset=8)" />
+    <Node Id="@14" Category="CodeSchema_Method" Bounds="4.05694375920574,-101.265548712214,122.225010186667,25.94943168" CodeSchemaProperty_IsPrivate="True" CommonLabel="GetNaturalColor" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Метод" Label="GetNaturalColor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Ahmed/Downloads/СДАТЬ/Raytracer_CSharp/Raytracer.cs StartLineNumber=139 StartCharacterOffset=8 EndLineNumber=139 EndCharacterOffset=8)" />
+    <Node Id="@15" Category="CodeSchema_Method" Bounds="-99.531015218099,66.604182967786,135.876666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="GetReflectionColor" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Метод" Label="GetReflectionColor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Ahmed/Downloads/СДАТЬ/Raytracer_CSharp/Raytracer.cs StartLineNumber=161 StartCharacterOffset=8 EndLineNumber=161 EndCharacterOffset=8)" UseManualLocation="True" />
+    <Node Id="@5" Category="CodeSchema_Method" Bounds="136.40887318929,66.5495011544437,100.523333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="RenderLoop" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Метод" Label="RenderLoop" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Ahmed/Downloads/СДАТЬ/Raytracer_CSharp/MainForm.cs StartLineNumber=90 StartCharacterOffset=8 EndLineNumber=90 EndCharacterOffset=8)" UseManualLocation="True" />
+    <Node Id="@8" Category="CodeSchema_Method" Bounds="52.4662226104736,10.644082967786,129.32,25.96" CodeSchemaProperty_IsInternal="True" CommonLabel="RenderSequential" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Метод" Label="RenderSequential" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Ahmed/Downloads/СДАТЬ/Raytracer_CSharp/Raytracer.cs StartLineNumber=25 StartCharacterOffset=8 EndLineNumber=25 EndCharacterOffset=8)" />
+    <Node Id="@9" Category="CodeSchema_Method" Bounds="52.3501231129964,-45.3160170322139,68.6133333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="Shade" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Метод" Label="Shade" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///C:/Users/Ahmed/Downloads/СДАТЬ/Raytracer_CSharp/Raytracer.cs StartLineNumber=166 StartCharacterOffset=8 EndLineNumber=166 EndCharacterOffset=8)" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1 @2 Type=MainForm Member=(Name=btnStartStop_Click OverloadingParameters=[(@3 @4 Type=Object),(@3 @4 Type=EventArgs)]))" Target="@5" Category="CodeSchema_FunctionPointer" Bounds="192.635571095915,-19.4106988455563,21.286410974634,77.2833137610889" Weight="1" />
+    <Link Source="@10" Target="@9" Category="CodeSchema_Calls" Bounds="46.442512512207,-14.0523118972778,29.4145736694336,136.561909675598" Weight="1" />
+    <Link Source="@11" Target="@10" Category="CodeSchema_Calls" Bounds="107.677863037245,153.261284061479,42.1404922552236,26.5048173179159" Weight="1" />
+    <Link Source="@12" Target="@10" Category="CodeSchema_Calls" Bounds="86.1245880126953,157.064437866211,52.0517578125,78.6617736816406" Weight="1" />
+    <Link Source="@14" Target="(@1 @2 @6 Member=(Name=TestRay OverloadingParameters=[(@1 @2 Type=Ray),@7]))" Category="CodeSchema_Calls" Bounds="28.4843454586773,-124.907621434571,23.6861810201587,23.642072722357" Weight="1" />
+    <Link Source="@15" Target="@10" Category="CodeSchema_Calls" Bounds="-5.84263874391599,92.5095011544437,51.4782396341959,25.9489876112812" Weight="1" />
+    <Link Source="@5" Target="@11" Category="CodeSchema_Calls" Bounds="173.590481259242,92.5095011544437,11.221044143537,78.3475097432071" Weight="1" />
+    <Link Source="@5" Target="@12" Category="CodeSchema_Calls" Bounds="193.851974487305,92.5094985961914,37.6284484863281,140.02220916748" Weight="1" />
+    <Link Source="@5" Target="@8" Category="CodeSchema_Calls" Bounds="140.268918956311,42.1915927737995,30.2707484057379,24.3579083806441" Weight="1" />
+    <Link Source="@8" Target="@10" Category="CodeSchema_Calls" Bounds="86.6683407368603,36.5494011544437,26.0851556706407,77.431173343242" Weight="1" />
+    <Link Source="@9" Target="@14" Category="CodeSchema_Calls" Bounds="73.3782977886953,-66.9143102006168,8.29401154818358,21.5982931684028" Weight="1" />
+    <Link Source="@9" Target="@15" Category="CodeSchema_Calls" Bounds="-11.3421532820088,-19.3560170322139,84.2849026810767,79.7735755794019" Weight="1" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Calls" Label="Вызовы" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Вызывается" OutgoingActionLabel="Вызовы" />
+    <Category Id="CodeSchema_FunctionPointer" Label="Указатель функции" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Указатели функций" OutgoingActionLabel="Указатели функций" />
+    <Category Id="CodeSchema_Member" Label="Член" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Члены" />
+    <Category Id="CodeSchema_Method" Label="Метод" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Методы" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Является Internal" Description="Флаг, указывающий, что метод является Internal" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Является Private" Description="Флаг, указывающий на область видимости Private" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Виртуализированные данные" Description="При значении true граф может содержать узлы и связи, которые представляют данные для виртуализированных узлов и связей (то есть которые не были фактически созданы в графе)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Состояние отложенных связей между группами" Description="Unspecified, если не указано состояние отложенных связей между группами. NotFetched, если отложенные связи между группами в данном узле еще не переданы в граф. Fetched, если все отложенные связи между группами уже переданы." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Значок" Description="Значок" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="Language" Label="Язык" Description="Язык" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Номер начальной строки" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="Weight" Label="Толщина" Description="Толщина" DataType="System.Double" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="ArrayRank" Label="Ранг массива" ValueType="System.String" />
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+    <Name Id="Member" Label="Член" ValueType="System.Object" />
+    <Name Id="Name" Label="Имя" ValueType="System.String" />
+    <Name Id="Namespace" Label="Пространство имен" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Параметр" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParentType" Label="Родительский тип" ValueType="System.Object" />
+    <Name Id="Type" Label="Тип" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(de6efaf0-6a7f-4a52-af6d-c50224960053.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=MI" />
+    <Alias n="3" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll" />
+    <Alias n="4" Id="Namespace=System" />
+    <Alias n="5" Id="(@1 @2 Type=MainForm Member=(Name=RenderLoop OverloadingParameters=[(@3 @4 Type=Object)]))" />
+    <Alias n="6" Id="Type=RayTracer" />
+    <Alias n="7" Id="(@1 @2 Type=Scene)" />
+    <Alias n="8" Id="(@1 @2 @6 Member=(Name=RenderSequential OverloadingParameters=[@7,(@3 @4 Type=(Name=Int32 ArrayRank=1 ParentType=Int32))]))" />
+    <Alias n="9" Id="(@1 @2 @6 Member=(Name=Shade OverloadingParameters=[(@1 @2 Type=ISect),@7,(@3 @4 Type=Int32)]))" />
+    <Alias n="10" Id="(@1 @2 @6 Member=(Name=TraceRay OverloadingParameters=[(@1 @2 Type=Ray),@7,(@3 @4 Type=Int32)]))" />
+    <Alias n="11" Id="(@1 @2 @6 Member=(Name=RenderParallel OverloadingParameters=[@7,(@3 @4 Type=(Name=Int32 ArrayRank=1 ParentType=Int32)),(@3 Namespace=System.Threading.Tasks Type=ParallelOptions)]))" />
+    <Alias n="12" Id="(@1 @2 @6 Member=(Name=RenderParallelShowingThreads OverloadingParameters=[@7,(@3 @4 Type=(Name=Int32 ArrayRank=1 ParentType=Int32)),(@3 Namespace=System.Threading.Tasks Type=ParallelOptions)]))" />
+    <Alias n="13" Id="(@1 @2 Type=Vector)" />
+    <Alias n="14" Id="(@1 @2 @6 Member=(Name=GetNaturalColor OverloadingParameters=[(@1 @2 Type=SceneObject),@13,@13,@13,@7]))" />
+    <Alias n="15" Id="(@1 @2 @6 Member=(Name=GetReflectionColor OverloadingParameters=[(@1 @2 Type=SceneObject),@13,@13,@13,@7,(@3 @4 Type=Int32)]))" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Результаты" ValueLabel="Да">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Сборка" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Пространство имен" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Интерфейс" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Структура" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Перечисление" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Делегат" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Класс" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Свойство" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Метод" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Событие" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Поле" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="True">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Внешние" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="Да" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="Да" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="Да" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="Да" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="Да" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="de6efaf0-6a7f-4a52-af6d-c50224960053.OutputPathUri" Value="file:///C:/Users/Ahmed/Downloads/СДАТЬ/Raytracer_CSharp/bin/Debug/Raytracer.exe" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>
