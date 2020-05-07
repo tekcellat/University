@@ -1,0 +1,11 @@
+shading.cpp: In member function ‘virtual void PointLight::illuminate(const Vec3f&, Vec3f&, Vec3f&, float&) const’:      shading.cpp:439:44: error: no match for ‘operator/’ (operand types are ‘Vec3<float>’ and ‘double’)
+         lightIntensity = color * intensity / (4 * M_PI * r2);
+                          ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+In file included from shading.cpp:43:0:
+geometry.h:126:17: note: candidate: Vec3<float> operator/(const float&, const Vec3<float>&)
+     friend Vec3 operator / (const T &r, const Vec3 &v)
+                 ^~~~~~~~
+geometry.h:126:17: note:   no known conversion for argument 1 from ‘Vec3<float>’ to ‘const float&’
+shading.cpp: In function ‘Vec3f castRay(const Vec3f&, const Vec3f&, const std::vector<std::unique_ptr<Object> >&, const std::vector<std::unique_ptr<Light> >&, const Options&, const uint32_t&)’:
+shading.cpp:568:30: error: no match for ‘operator+=’ (operand types are ‘Vec3f {aka Vec3<float>}’ and ‘Vec3<float>’)                         hitColor += vis * pattern * lightIntensity * std::max(0.f, hitNormal.dotProduct(-lightDir));                            ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~        shading.cpp:604:26: error: no match for ‘operator+=’ (operand types are ‘Vec3f {aka Vec3<float>}’ and ‘Vec3<float>’)                     hitColor += reflectionColor * kr + refractionColor * (1 - kr);
+                 ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
