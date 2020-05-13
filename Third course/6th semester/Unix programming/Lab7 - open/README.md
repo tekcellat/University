@@ -1,1 +1,1 @@
-by @ZeynalovZ
+*by* [Zeynalov](https://github.com/ZeynalovZ)
