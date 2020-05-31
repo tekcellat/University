@@ -1,0 +1,48 @@
+<nav class="navbar navbar-default navbar-main">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="/">E-Tech</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <div class="basket-container">
+                        <a href="">Cart <span id="basket_total_amount"></span><span id="basket_total_nmb">
+                        {% if products_total_nmb %}
+                            ({{ products_total_nmb }})
+                        {% else %}
+                            (0)
+                        {% endif %}
+                    </span></a>
+                        <div class="basket-items hidden">
+                            <ul class="">
+                                {% for product_in_basket in products_in_basket %}
+                                <li>
+                                    {{ product_in_basket.product.name }} {{ product_in_basket.nmb }} шт. по {{ product_in_basket.price_per_item }} RUB.
+                                    <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}">x</a>
+                                </li>
+                                {% endfor %}
+                                <li>
+                                    <a href="{% url 'checkout'  %}">
+                                    Checkout
+                                </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>

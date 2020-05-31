@@ -1,0 +1,55 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="{% static 'css/landing.css' %}">
+
+
+</head>
+
+<body>
+
+    <div class="general-container">
+        <div class="container top-container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h1 class="title">As soon as!<br> Fill blank with you mail</h1>
+                    <div>
+                        <form action="" method="post" class="form-inline text-center">{% csrf_token %}
+                            <div class="form-group">
+                                <label>@mail: </label>
+                                <input name="{{ form.email.name }}" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Name: </label>
+                                <input name="{{ form.name.name }}" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-orange">Send</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+</body>
+
+</html>
