@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>165</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>СМО информцентра</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetMinimumSize</enum>
+   </property>
+   <item row="13" column="1">
+    <widget class="QLabel" name="label_lost_clients">
+     <property name="text">
+      <string>Z</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLabel" name="label_op1">
+     <property name="text">
+      <string>1</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLabel" name="label_op0">
+     <property name="text">
+      <string>0</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label_clients">
+     <property name="text">
+      <string>C</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+   <item row="10" column="1">
+    <widget class="QLabel" name="label_client_count">
+     <property name="text">
+      <string>n</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+   <item row="6" column="1" colspan="2">
+    <widget class="QLabel" name="label_comp_title">
+     <property name="text">
+      <string>Время работы компьютеров:</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLabel" name="label_comp0">
+     <property name="text">
+      <string>0</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLabel" name="label_op2">
+     <property name="text">
+      <string>2</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLabel" name="label_comp1">
+     <property name="text">
+      <string>1</string>
+      <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1" colspan="2">
+    <widget class="QLabel" name="label_client_count_title">
+     <property name="text">
+      <string>Количество клиентов:</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+   <item row="12" column="1" colspan="2">
+    <widget class="QLabel" name="label_lost_clients_title">
+     <property name="text">
+      <string>Потеряно клиентов:</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <layout class="QHBoxLayout" name="hl_op0">
+     <item>
+      <widget class="QLineEdit" name="le_op0_m">
+       <property name="text">
+        <string>20</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_op0_pm">
+       <property name="text">
+        <string>±</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_op0_d">
+       <property name="text">
+        <string>5</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QLabel" name="label_clients_title">
+     <property name="text">
+      <string>Время прихода клиентов:</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+   <item row="15" column="1" colspan="2">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="1" colspan="2">
+    <widget class="QLabel" name="label_op_title">
+     <property name="text">
+      <string>Время работы операторов:</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+   <item row="10" column="2">
+    <layout class="QHBoxLayout" name="hl_client_count">
+     <item>
+      <widget class="QLineEdit" name="le_client_count">
+       <property name="text">
+        <string>300</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="2">
+    <layout class="QHBoxLayout" name="hl_op1">
+     <item>
+      <widget class="QLineEdit" name="le_op1_m">
+       <property name="text">
+        <string>40</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_op1_pm">
+       <property name="text">
+        <string>±</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_op1_d">
+       <property name="text">
+        <string>10</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="13" column="2">
+    <layout class="QHBoxLayout" name="hl_lost_clients">
+     <item>
+      <widget class="QLineEdit" name="le_lost_clients">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="2">
+    <layout class="QHBoxLayout" name="hl_op2">
+     <item>
+      <widget class="QLineEdit" name="le_op2_m">
+       <property name="text">
+        <string>40</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_op2_pm">
+       <property name="text">
+        <string>±</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_op2_d">
+       <property name="text">
+        <string>20</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="2">
+    <layout class="QHBoxLayout" name="hl_clients">
+     <item>
+      <widget class="QLineEdit" name="le_client_m">
+       <property name="text">
+        <string>10</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_client_pm">
+       <property name="text">
+        <string>±</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_client_d">
+       <property name="text">
+        <string>2</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="2">
+    <layout class="QHBoxLayout" name="hl_comp0">
+     <item>
+      <widget class="QLineEdit" name="le_comp0_m">
+       <property name="text">
+        <string>15</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="8" column="2">
+    <layout class="QHBoxLayout" name="hl_comp1">
+     <item>
+      <widget class="QLineEdit" name="le_comp1_m">
+       <property name="text">
+        <string>30</string>
+       </property>
+       <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="14" column="1" colspan="2">
+    <widget class="QPushButton" name="pushButton_model">
+     <property name="text">
+      <string>Go</string>
+     </property>
+     <property name="font">
+     <font>
+      <family>Courier New</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
