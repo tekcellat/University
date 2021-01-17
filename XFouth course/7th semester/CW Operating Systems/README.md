@@ -2,7 +2,7 @@
 Компилим, не выёживаемся, сдаём :)
 ## Linux 
 Качаем нужную версию, на всякий х32 оставлю, но работать не должно (вроде).
-| Kernel / arch |         x86         |        x86-64        |
+| Kernel |         x86         |        x86-64        |
 |:-------------:|:-------------------:|:--------------------:|
 |     4.4.0     | Ubuntu 16.04 i386 (647M) [[torrent]](http://old-releases.ubuntu.com/releases/16.04.0/ubuntu-16.04-server-i386.iso.torrent) [[iso]](http://old-releases.ubuntu.com/releases/16.04.0/ubuntu-16.04-server-i386.iso) |  Ubuntu 16.04 amd64 (655M) [[torrent]](http://old-releases.ubuntu.com/releases/16.04.0/ubuntu-16.04-server-amd64.iso.torrent) [[iso]](http://old-releases.ubuntu.com/releases/16.04.0/ubuntu-16.04-server-amd64.iso) |
 
