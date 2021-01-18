@@ -48,10 +48,11 @@ load:
 	insmod rootkit.ko
 
 unload:
-	insmod rootkit.ko
-	insmod $(KERNELDIR)/net/ipv6/netfilter/nf_reject_ipv6.ko
+	rmmod rootkit.ko
+	rmmod $(KERNELDIR)/net/ipv6/netfilter/nf_reject_ipv6.ko
 
 clean:
 	$(MAKE) -C $(BUILDDIR) M=$(PWD) clean
 
-# must be added to load with checking insmod $(KERNELDIR)/net/ipv4/netfilter/nf_reject_ipv4.ko
+# must be added to load with checking insmod $(KERNELDIR)/net/ipv4/netfilter/nf_reject_ipv4.ko 
+# in server verison nf_reject_ipv4.ko must be already, check it before loading. If u dont have it, just add ub load/unload scpirt it before ipv6. Good luck :^)
