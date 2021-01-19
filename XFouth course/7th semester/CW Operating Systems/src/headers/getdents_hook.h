@@ -8,6 +8,8 @@
 #include <linux/pid.h>
 #include <linux/delay.h>
 #include <linux/dirent.h>
+#include <linux/sched.h>
+#include <linux/sched/signal.h>
 
 /* struct for getdents entries */
 struct linux_dirent {
