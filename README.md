@@ -5,4 +5,4 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/tekcellat/University?style=for-the-badge)
 
-![APM](https://img.shields.io/apm/l/vim-mode?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/tekcellat/University?style=for-the-badge)
