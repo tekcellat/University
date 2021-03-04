@@ -6,7 +6,7 @@
 |:-------------:|:-------------------:|:--------------------:|
 |     4.4.0     | Ubuntu 16.04 i386 (647M) [[torrent]](http://old-releases.ubuntu.com/releases/16.04.0/ubuntu-16.04-server-i386.iso.torrent) [[iso]](http://old-releases.ubuntu.com/releases/16.04.0/ubuntu-16.04-server-i386.iso) |  Ubuntu 16.04 amd64 (655M) [[torrent]](http://old-releases.ubuntu.com/releases/16.04.0/ubuntu-16.04-server-amd64.iso.torrent) [[iso]](http://old-releases.ubuntu.com/releases/16.04.0/ubuntu-16.04-server-amd64.iso) |
 
-* [Инструкция, как потом установить нужное ядро.](https://ubuntuhandbook.org/index.php/2016/01/how-to-install-linux-kernel-4-4-in-ubuntu/)\
+* [Инструкция, как потом установить нужное ядро.](https://ubuntuhandbook.org/index.php/2016/01/how-to-install-linux-kernel-4-4-in-ubuntu/)
 * [Как загрузиться в grub, чтобы запустить ОС именно с определённого, старого, ядра](https://askubuntu.com/questions/16042/how-to-get-to-the-grub-menu-at-boot-time) А если короче, в `/etc/default/grub file` замени `0` в `GRUB_HIDDEN_TIMEOUT=0` на `-1`, чтобы постоянно заргужаться с него, далее пропиши `sudo update-grub`. Це будет полезно для тех, кто с виртуалок. 
 
 ### Далее на всякий:
