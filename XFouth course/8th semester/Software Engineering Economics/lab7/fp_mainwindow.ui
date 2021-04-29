@@ -1,0 +1,1848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FPMainWindow</class>
+ <widget class="QMainWindow" name="FPMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>814</width>
+    <height>459</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Functional Points</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>267</x>
+      <y>10</y>
+      <width>420</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>420</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="btn_calculate">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>171</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Рассчитать</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_27">
+     <property name="geometry">
+      <rect>
+       <x>211</x>
+       <y>11</y>
+       <width>84</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>84</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Количество</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_28">
+     <property name="geometry">
+      <rect>
+       <x>302</x>
+       <y>11</y>
+       <width>65</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>65</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>68</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Сложность</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_29">
+     <property name="geometry">
+      <rect>
+       <x>377</x>
+       <y>11</y>
+       <width>30</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>30</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>30</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Итог</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>30</y>
+       <width>200</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Внутренние логические файлы (ILF)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="entry_ilf">
+     <property name="geometry">
+      <rect>
+       <x>212</x>
+       <y>30</y>
+       <width>80</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cb_ilf">
+     <property name="geometry">
+      <rect>
+       <x>299</x>
+       <y>30</y>
+       <width>76</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <item>
+      <property name="text">
+       <string>Низкий (7)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Средний (10)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Высокий (15)</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="ILFLabel">
+     <property name="geometry">
+      <rect>
+       <x>382</x>
+       <y>30</y>
+       <width>10</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>10</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>61</y>
+       <width>200</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Внешние интерфейсные файлы (EIF)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="entry_eif">
+     <property name="geometry">
+      <rect>
+       <x>212</x>
+       <y>61</y>
+       <width>80</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cb_eif">
+     <property name="geometry">
+      <rect>
+       <x>299</x>
+       <y>61</y>
+       <width>76</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <item>
+      <property name="text">
+       <string>Низкий (5)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Средний (7)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Высокий (10)</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="EIFLabel">
+     <property name="geometry">
+      <rect>
+       <x>382</x>
+       <y>61</y>
+       <width>10</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>10</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="entry_ei">
+     <property name="geometry">
+      <rect>
+       <x>212</x>
+       <y>92</y>
+       <width>80</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>92</y>
+       <width>200</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Внешние вводы (EI)</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cb_ei">
+     <property name="geometry">
+      <rect>
+       <x>299</x>
+       <y>92</y>
+       <width>76</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <item>
+      <property name="text">
+       <string>Низкий (3)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Средний (4)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Высокий (6)</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="EILabel">
+     <property name="geometry">
+      <rect>
+       <x>382</x>
+       <y>92</y>
+       <width>10</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>10</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>123</y>
+       <width>200</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Внешние выводы (EO)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="entry_eo">
+     <property name="geometry">
+      <rect>
+       <x>212</x>
+       <y>123</y>
+       <width>80</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cb_eo">
+     <property name="geometry">
+      <rect>
+       <x>299</x>
+       <y>123</y>
+       <width>76</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <item>
+      <property name="text">
+       <string>Низкий (4)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Средний (5)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Высокий (7)</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="EOLabel">
+     <property name="geometry">
+      <rect>
+       <x>382</x>
+       <y>123</y>
+       <width>10</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>10</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="EQLabel">
+     <property name="geometry">
+      <rect>
+       <x>382</x>
+       <y>154</y>
+       <width>10</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>10</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>154</y>
+       <width>200</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Внешние запросы (EQ)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="entry_eq">
+     <property name="geometry">
+      <rect>
+       <x>212</x>
+       <y>154</y>
+       <width>80</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cb_eq">
+     <property name="geometry">
+      <rect>
+       <x>299</x>
+       <y>154</y>
+       <width>76</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <item>
+      <property name="text">
+       <string>Низкий (3)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Средний (4)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Высокий (6)</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>222</y>
+       <width>178</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Всего функциональных точек:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_fp_total">
+     <property name="geometry">
+      <rect>
+       <x>197</x>
+       <y>222</y>
+       <width>30</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>30</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>30</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_22">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>272</y>
+       <width>130</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Примерно строк кода:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_loc">
+     <property name="geometry">
+      <rect>
+       <x>149</x>
+       <y>272</y>
+       <width>30</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>30</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>30</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_23">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>247</y>
+       <width>181</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Скорректированное значение:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_fp_corrected">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>247</y>
+       <width>30</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>30</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>30</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>0.0</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>74</y>
+      <width>123</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Производительность</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param3">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>74</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>105</y>
+      <width>190</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Эксплуатационные ограничения</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param4">
+    <property name="geometry">
+     <rect>
+      <x>219</x>
+      <y>105</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>167</y>
+      <width>159</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Оперативный ввод данных</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param6">
+    <property name="geometry">
+     <rect>
+      <x>188</x>
+      <y>167</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param7">
+    <property name="geometry">
+     <rect>
+      <x>187</x>
+      <y>198</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>198</y>
+      <width>158</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Эффективность работы кп</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>229</y>
+      <width>152</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Оперативное обновление</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param8">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>229</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param9">
+    <property name="geometry">
+     <rect>
+      <x>159</x>
+      <y>260</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>260</y>
+      <width>130</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Сложность обработки</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>291</y>
+      <width>156</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Повторное использование</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param10">
+    <property name="geometry">
+     <rect>
+      <x>185</x>
+      <y>291</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>322</y>
+      <width>132</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Легкость инсталляции</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param11">
+    <property name="geometry">
+     <rect>
+      <x>161</x>
+      <y>322</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>353</y>
+      <width>136</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Легкость эксплуатации</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param12">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>353</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param13">
+    <property name="geometry">
+     <rect>
+      <x>118</x>
+      <y>384</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>384</y>
+      <width>89</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Портируемость</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>415</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Простота изменений</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param14">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>415</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>136</y>
+      <width>118</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Частота транзакций</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param5">
+    <property name="geometry">
+     <rect>
+      <x>147</x>
+      <y>136</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>43</y>
+      <width>200</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Распределенная обработка данных</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param2">
+    <property name="geometry">
+     <rect>
+      <x>229</x>
+      <y>43</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>12</y>
+      <width>104</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Передача данных</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_param1">
+    <property name="geometry">
+     <rect>
+      <x>133</x>
+      <y>12</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>30</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_42">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>267</y>
+      <width>23</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SQL</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_sql">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>267</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>30</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_33">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>71</y>
+      <width>32</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cobol</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_cobol">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>71</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_70">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>211</y>
+      <width>17</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C#</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_cs">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>211</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_34">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>99</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>JS</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_fortran">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>99</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_36">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>155</y>
+      <width>24</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C++</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_cpp">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>155</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_35">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>127</y>
+      <width>36</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pascal</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_pascal">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>127</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_37">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>183</y>
+      <width>25</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Java</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_java">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>183</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>60</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_43">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>239</y>
+      <width>40</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ada 95</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_ada">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>239</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_41">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>295</y>
+      <width>62</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Visual C++</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_vcpp">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>295</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_40">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>323</y>
+      <width>35</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delphi</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_delphi">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>323</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_39">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>351</y>
+      <width>22</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Perl</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_perl">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>351</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_38">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>379</y>
+      <width>36</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Prolog</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_prolog">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>379</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_32">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>43</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_c">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>43</y>
+      <width>50</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_31">
+    <property name="geometry">
+     <rect>
+      <x>681</x>
+      <y>14</y>
+      <width>26</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ASM</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_percent_asm">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>14</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
